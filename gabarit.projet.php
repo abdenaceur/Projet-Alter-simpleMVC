@@ -42,7 +42,7 @@
 		<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 text-left">
 			<input type="text" class="form-control" placeholder='Rechercher'>
 		</div>
-		<div class="col-lg-5 col-md-5 col-sm-7 col-xs-8 text-right">
+		<div class="col-lg-5 col-md-5 col-sm-7 col-xs-7 text-right">
 			<a href="login.html">SE CONNECTER</a>
 			<a href="formulaire.html">S'INSCRIRE</a>
 			<a href="panier.html"><i class="fa fa-shopping-cart fa-2x"></i> [2]</a>

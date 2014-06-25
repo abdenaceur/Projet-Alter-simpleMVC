@@ -48,7 +48,7 @@ select {
 	display: block;
 	height: 25px;
 }
-button {
+.button {
 	margin-top: 10%;
 	
 	font-size: 20px;
