@@ -28,7 +28,9 @@ class Controler
                 case 'magazine':
 					$this->magazine();
 					break;
-                
+                case 'panier':
+					$this->panier();
+					break;
                 case 'plandusite':
 					$this->plandusite();
 					break;
@@ -64,6 +66,12 @@ class Controler
 			$oVue = new magazine();
 			$oVue->afficheMagazine();
 		}
+        private function panier()
+		{
+			$oVue = new panier();
+			$oVue->affichePanier();
+		}
+    
     
     
 		// Placer les méthodes du controleur.
