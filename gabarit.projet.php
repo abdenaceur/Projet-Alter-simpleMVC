@@ -65,7 +65,7 @@
 		</div>
 		<div class="col-lg-5 col-md-5 col-sm-5 text-right">
 			<a href="?requete=login">SE CONNECTER</a>
-			<a href="?requete=formulaire">S'INSCRIRE</a>
+			<a href="?requete=login">S'INSCRIRE</a>
 			<a href="?requete=panier"><i class="fa fa-shopping-cart fa-2x"></i> [2]</a>
 		</div>
 	</header>
@@ -114,7 +114,7 @@
 			<div class="col-md-12 text-center">
 				<p>
 					<a href="?requete=politiqueretour">POLITIQUE DE RETOUR </a>
-					<a href="?requete=infoexpedition">INFORMATION D’EXP&Eacute;DITION</a>
+					<a href="?requete=info_exp">INFORMATION D’EXP&Eacute;DITION</a>
 					<a href="?requete=faq">FAQ</a>
 					<a href="?requete=plandusite">PLAN DU SITE</a>
 					<a href="?requete=politiqueconfidentialite">POLITIQUE DE CONFIDENTIALIT&Eacute;</a> 

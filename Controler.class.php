@@ -34,15 +34,44 @@ class Controler
                 case 'plandusite':
 					$this->plandusite();
 					break;
-                
                 case 'politiqueretour':
 					$this->politiqueretour();
 					break;
+                 case 'magazine':
+					$this->magazine();
+					break;
+                 case 'produit':
+					$this->produit();
+					break;
+                 case 'magazine-detail':
+					$this->magazine_detail();
+					break;
+                 case 'login':
+					$this->login();
+					break;
+                 case 'info_exp':
+					$this->info_exp();
+					break;
+                case 'apropos':
+					$this->apropos();
+					break;
+                case 'contact':
+					$this->contact();
+					break;
+                case 'faq':
+					$this->faq();
+					break;
+                case 'politiqueconfidentialite':
+					$this->politique_conf();
+					break;
+                
 				default:
 					$this->accueil();
 					break;
 			}
 		}
+    
+    
 		private function accueil()
 		{
 			$oVue = new acceuil();
@@ -63,17 +92,58 @@ class Controler
 		}
         private function magazine()
 		{
-			$oVue = new magazine();
-			$oVue->afficheMagazine();
+			$oVue = new Magazine_list();
+			$oVue->afficheMagazineList();
+		}
+        private function magazine_detail()
+		{
+			$oVue = new Magazine_detail();
+			$oVue->afficheMagazineDetail();
+		}
+    
+    
+        private function login()
+		{
+			$oVue = new Login();
+			$oVue->afficheLogin();
 		}
         private function panier()
 		{
 			$oVue = new panier();
 			$oVue->affichePanier();
 		}
+        private function produit()
+		{
+			$oVue = new produit();
+			$oVue->afficheProduit();
+		}
     
+        private function info_exp()
+		{
+			$oVue = new Info_expedition();
+			$oVue->afficheInfoExpedition();
+		}
     
-    
+    private function apropos()
+		{
+			$oVue = new apropos();
+			$oVue->afficheApropos();
+		}
+     private function contact()
+		{
+			$oVue = new contact();
+			$oVue->afficheContact();
+		}
+    private function faq()
+		{
+			$oVue = new faq();
+			$oVue->afficheFaq();
+		}
+    private function politique_conf()
+		{
+			$oVue = new politique_conf();
+			$oVue->affichePolitique_conf();
+		}
 		// Placer les méthodes du controleur.
 		
 		
