@@ -43,9 +43,9 @@
 			<input type="text" class="form-control" placeholder='Rechercher'>
 		</div>
 		<div class="col-lg-5 col-md-5 col-sm-7 col-xs-7 text-right">
-			<a href="login.html">SE CONNECTER</a>
-			<a href="formulaire.html">S'INSCRIRE</a>
-			<a href="panier.html"><i class="fa fa-shopping-cart fa-2x"></i> [2]</a>
+			<a href="?requete=login">SE CONNECTER</a>
+			<a href="?requete=formulaire">S'INSCRIRE</a>
+			<a href="?requete=panier"><i class="fa fa-shopping-cart fa-2x"></i> [2]</a>
 		</div>
 	</header>
 	<!-- /Header mobile -->
@@ -65,7 +65,7 @@
 		</div>
 		<div class="col-lg-5 col-md-5 col-sm-5 text-right">
 			<a href="?requete=login">SE CONNECTER</a>
-			<a href="?requete=login">S'INSCRIRE</a>
+			<a href="?requete=formulaire">S'INSCRIRE</a>
 			<a href="?requete=panier"><i class="fa fa-shopping-cart fa-2x"></i> [2]</a>
 		</div>
 	</header>

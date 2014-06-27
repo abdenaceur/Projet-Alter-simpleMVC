@@ -58,6 +58,10 @@ class Controler
                 case 'contact':
 					$this->contact();
 					break;
+                case 'formulaire':
+					$this->formulaire();
+					break;
+                
                 case 'faq':
 					$this->faq();
 					break;
@@ -101,7 +105,11 @@ class Controler
 			$oVue->afficheMagazineDetail();
 		}
     
-    
+    private function formulaire()
+		{
+			$oVue = new Formulaire();
+			$oVue->afficheFormulaire();
+		}
         private function login()
 		{
 			$oVue = new Login();
