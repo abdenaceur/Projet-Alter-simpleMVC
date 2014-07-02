@@ -63,11 +63,35 @@
 				<img src="img/alter-logo.jpg" alt="Alter" />
 			</a>
 		</div>
+        <?php
+        session_start();
+
+        if(isset($_SESSION['ClientNom'])){
+
+        ?>
 		<div class="col-lg-5 col-md-5 col-sm-5 text-right">
-			<a href="?requete=login">SE CONNECTER</a>
-			<a href="?requete=formulaire">S'INSCRIRE</a>
-			<a href="?requete=panier"><i class="fa fa-shopping-cart fa-2x"></i> [2]</a>
-		</div>
+			<p href="?requete=login">Bienvenue, <?php echo $_SESSION['ClientNom']?>
+            <a href="?requete=panier"><i class="fa fa-shopping-cart fa-2x"></i> [2]</a></p>
+            <a href="?requete=logout">Logout</a>
+
+
+        </div>
+        <?php
+        }else{
+
+        ?>
+
+            <div class="col-lg-5 col-md-5 col-sm-5 text-right">
+                <a href="?requete=login">SE CONNECTER</a>
+                <a href="?requete=formulaire">S'INSCRIRE</a>
+                <a href="?requete=panier"><i class="fa fa-shopping-cart fa-2x"></i> [2]</a>
+            </div>
+
+        <?php
+        }
+        ?>
+
+
 	</header>
 	<!-- /Header desktop -->
 	<!-- navigation -->
@@ -117,8 +141,10 @@
 					<a href="?requete=info_exp">INFORMATION D’EXP&Eacute;DITION</a>
 					<a href="?requete=faq">FAQ</a>
 					<a href="?requete=plandusite">PLAN DU SITE</a>
-					<a href="?requete=politiqueconfidentialite">POLITIQUE DE CONFIDENTIALIT&Eacute;</a> 
-				</p>
+					<a href="?requete=politiqueconfidentialite">POLITIQUE DE CONFIDENTIALIT&Eacute;</a>
+                    <a href="?requete=admin?section=adminAcceuil">ADMINISTRATEUR</a>
+
+                </p>
 			</div>
 		</div>
 		<div class="row">

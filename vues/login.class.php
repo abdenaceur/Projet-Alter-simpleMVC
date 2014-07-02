@@ -34,16 +34,18 @@ class Login {
             </div>
             <div class="col-lg-8 col-md-8 col-sm-10col-xs-12 container contenu_interne">
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                    <form role="form" id="formulaire">
+                    <form id="loginUtilisateur" name="loginUtilisateur" action="index.php" method="post">
                         <div class="form-group">
                             <h3>Se connecter</h3>
                             <label for="exampleInputEmail1">Courriel</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" autofocus placeholder="Courriel">
+                            <input type="email" class="form-control" id="exampleInputEmail1" name="exampleInputEmail1" autofocus placeholder="Courriel">
                             <label for="exampleInputPassword1">Mot de passe</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mot de passe">
+                            <input type="password" class="form-control" id="exampleInputPassword1" name="exampleInputPassword1" placeholder="Mot de passe">
                             <button type="submit" id="btn_connect" class="btn btn-default">Se connecter</button>
+                    </form>
                             <br />
                             <br />
+                    <form role="form" id="oublieMotsDePasse" action="?requete=oublieMotsDePasse">
 
                             <h4>Vous avez oublié votre mot de passe?</h4>
                             <p>Inscrivez votre adresse courriel ci-dessous pour réinitialiser votre mot de passe. Votre nouveau mot de passe temporaire vous sera envoyé par courriel.</p>

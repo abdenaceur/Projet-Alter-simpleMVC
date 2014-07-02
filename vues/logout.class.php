@@ -1,7 +1,7 @@
 <?php
 /**
- * Class Modele
- * Template de classe modèle. Dupliquer et modifier pour votre usage.
+ * Class Vue
+ * Template de classe Vue. Dupliquer et modifier pour votre usage.
  * 
  * @author Jonathan Martel
  * @version 1.0
@@ -10,33 +10,20 @@
  * @license http://creativecommons.org/licenses/by-nc/3.0/deed.fr
  * 
  */
-class Modele {
-	
-    
-	function __construct ()
-	{
-		
-	}
-	
-	function __destruct ()
-	{
-		
-	}
-	
-		
+
+
+class Logout {
+
 	/**
+	 * Affiche la page d'accueil 
 	 * @access public
-	 * @return Array
+	 * 
 	 */
-	public function v()
-	{
-				
-		
-		
+	public function afficheLogout() {
+	session_destroy();
+        header('location:index.php');
 	}
+	
+
 }
-
-
-
-
 ?>

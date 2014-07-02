@@ -24,6 +24,7 @@ body {
 	padding: 0;
 }
 
+
 /* règles de style pour les éléments du login ceux du formulaire d'inscription*/
 
 label {
@@ -211,6 +212,9 @@ footer {
 .clipping-frame img:hover {
 	margin-left: -20px;
 	cursor: pointer;
+}
+.erreur{
+    color:red;
 }
 /* ===================================================================
 Media Queries Aditionels http://scotch.io/quick-tips/css3-quick-tips/default-sizes-for-twitter-bootstraps-media-queries
