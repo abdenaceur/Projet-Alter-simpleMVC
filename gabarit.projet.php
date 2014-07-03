@@ -32,6 +32,28 @@
     
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 	<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+	  	<script>
+		window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')
+	</script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+	<script>
+		(function(b, o, i, l, e, r) {
+			b.GoogleAnalyticsObject = l;
+			b[l] || (b[l] =
+				function() {
+					(b[l].q = b[l].q || []).push(arguments)
+				});
+			b[l].l = +new Date;
+			e = o.createElement(i);
+			r = o.getElementsByTagName(i)[0];
+			e.src = '//www.google-analytics.com/analytics.js';
+			r.parentNode.insertBefore(e, r)
+		}(window, document, 'script', 'ga'));
+		ga('create', 'UA-XXXXX-X');
+		ga('send', 'pageview');
+	</script>
 </head>
 <body>
 	<!--[if lt IE 7]>
@@ -163,42 +185,5 @@
 		</div>
 	</footer>
 	<!-- /Footer -->
-  	<script>
-		window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')
-	</script>
-	<script src="js/vendor/bootstrap.min.js"></script>
-	<script src="js/main.js"></script>
-	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-	<script>
-		(function(b, o, i, l, e, r) {
-			b.GoogleAnalyticsObject = l;
-			b[l] || (b[l] =
-				function() {
-					(b[l].q = b[l].q || []).push(arguments)
-				});
-			b[l].l = +new Date;
-			e = o.createElement(i);
-			r = o.getElementsByTagName(i)[0];
-			e.src = '//www.google-analytics.com/analytics.js';
-			r.parentNode.insertBefore(e, r)
-		}(window, document, 'script', 'ga'));
-		ga('create', 'UA-XXXXX-X');
-		ga('send', 'pageview');
-		 // script pour magazine, magazine détail
-		$(function() {
-			$('.menulink1').click(function(e) {
-				e.preventDefault();
-				$("#bg").attr('src', "./img/alter-10-01.jpg");
-			});
-			$('.menulink2').click(function(e) {
-				e.preventDefault();
-				$("#bg").attr('src', "./img/alter-10-02.jpg");
-			});
-			$('.menulink3').click(function(e) {
-				e.preventDefault();
-				$("#bg").attr('src', "./img/alter-10-03.jpg");
-			});
-		});
-	</script>
 </body>
 </html>

@@ -136,13 +136,18 @@ class Produits {
 			$produit_image3 = $ligne->Produit_Image3;
 			$produit_description = $ligne->Produit_Description;
             $produit_prix = $ligne->Produit_Prix;
-            $produit_style = $ligne->produit_style;
-            $produit_materiel = $ligne->produit_materiel;
+            $produit_style = ucfirst($ligne->produit_style);
+            $produit_materiel = ucfirst($ligne->produit_materiel);
+			$produit_coleur = ucfirst($ligne->Produit_Couleur);
 			$produit_poids = $ligne->Produit_Poids;
 			$produit_longeur = $ligne->Produit_Longeur;
 			$produit_largeur = $ligne->Produit_Largeur;
-            $produit_os = $ligne->Produit_OS;
+            $produit_os = strtoupper($ligne->Produit_OS);
 			$produit_resolution = $ligne->Produit_ResolutionEcran;
+			if ($ligne->Produit_Hautparleur){$produit_hautparleur = '<li>Hautparleur</li>';} else $produit_hautparleur = '';
+            if ($ligne->Produit_Microphone){$produit_microphone = '<li>Microphone</li>';} else $produit_microphone = '';
+            if ($ligne->Produit_Camera){$produit_camera = '<li>Camera</li>';} else $produit_camera = '';
+            if ($ligne->Produit_TouchScreen){$produit_touchScreen = '<li>TouchScreen</li>';} else $produit_touchScreen = '';
 			// Publication du contenu de la page
 			echo ('
 					<!-- Images du produit -->
@@ -185,19 +190,17 @@ class Produits {
 						<h3>Caract&eacute;ristiques :</h3>
 						<ul>
 							<li>Style : '.$produit_style.'</li>
-							<li>Materiel : '.$produit_style.'</li>
-							<li>Couleur : '.$produit_style.'</li>
+							<li>Materiel : '.$produit_materiel.'</li>
+							<li>Couleur : '.$produit_coleur.'</li>
 							<li>Poids : '.$produit_poids.' grms</li>
 							<li>Longeur : '.$produit_longeur.' mms</li>
 							<li>Largeur : '.$produit_largeur.' cms</li>
 							<li>OS : '.$produit_os.'</li>
-							<li>Resolution : '.$produit_resolution.'</li>'.
-				  			/*
-				  			if ($ligne->Produit_Hautparleur){$produit_hautparleur = 'hautparleur';}
-            				if ($ligne->Produit_Microphone){$produit_microphone = 'microphone ';}
-            				if ($ligne->Produit_Camera){$produit_camera = 'camera';}
-            				if ($ligne->Produit_TouchScreen){$produit_touchScreen = 'touchScreen';}
-							*/
+							<li>Resolution : '.utf8_encode($produit_resolution).'</li>'
+							.$produit_hautparleur
+				  			.$produit_microphone
+				  			.$produit_camera
+				  			.$produit_touchScreen.
 				  		'</ul>
 					</div>
 					<!-- /Description de produit -->
@@ -221,6 +224,7 @@ class Produits {
 			');
         }
 	}
+	
     
 }
 ?>

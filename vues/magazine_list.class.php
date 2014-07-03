@@ -65,5 +65,7 @@ class Magazine_list {
 		<?php
 		
 	}
+	
+
 }
 ?>
