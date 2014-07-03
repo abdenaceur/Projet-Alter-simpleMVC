@@ -28,7 +28,7 @@ class Modele {
 	 * @access public
 	 * @return Array
 	 */
-	public function getData() 
+	public function v()
 	{
 				
 		

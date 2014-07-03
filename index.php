@@ -22,6 +22,10 @@
    /***************************************************/
     /** Gabarit **/
     /***************************************************/
-	require_once("./gabarit.projet.php");
+if($_GET['requete']=="admin"){
+	require_once("./gabaritAdmin.projet.php");
+}else{
+    require_once("./gabarit.projet.php");
+}
 
 ?>
