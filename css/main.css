@@ -170,7 +170,7 @@ footer {
 .magazine a img:hover {
 	border: 1px #999999 solid;
 }
-.magazine a:link {
+.magazine a:link, .magazine a:visited {
 	color: #ffffff;
 }
 .magazine h1 {
