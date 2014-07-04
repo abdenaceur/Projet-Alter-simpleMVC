@@ -1,6 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> 3d28d20d9435bac837f904997096477f974bb77f
 $(document).ready(function() {
     var allSelectedClasses;
     allSelectedClasses = '';
@@ -37,5 +40,9 @@ $(document).ready(function() {
             $("div:not(.prodGrid, " + allSelected + ")").hide();
         }
     });
+<<<<<<< HEAD
+});
+>>>>>>> 3d28d20d9435bac837f904997096477f974bb77f
+=======
 });
 >>>>>>> 3d28d20d9435bac837f904997096477f974bb77f

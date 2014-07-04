@@ -28,8 +28,11 @@
     <!-- MVC -->
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 <<<<<<< HEAD
+<<<<<<< HEAD
 	<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 =======
+=======
+>>>>>>> 3d28d20d9435bac837f904997096477f974bb77f
 	<script>
 		window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')
 	</script>
