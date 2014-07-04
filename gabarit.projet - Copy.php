@@ -69,35 +69,39 @@
 	<!-- /Header mobile -->
 	<!-- Header desktop -->
 	<header class=" container desktop-visible header">
-		<section class=" col-lg-5 col-md-5 col-sm-5">
-			<section class="col-lg-6 col-md-6 col-sm-8 text-left">
+		<div class=" col-lg-5 col-md-5 col-sm-5">
+			<div class="col-lg-6 col-md-6 col-sm-8 text-left">
 				<input type="text" class=" form-control" placeholder='Rechercher'>
-			</section>
-			<section class="col-lg-6 col-md-6 col-sm-4">
-			</section>
-		</section>
-		<section class=" col-lg-2 col-md-2 col-sm-2 text-center">
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-4">
+			</div>
+		</div>
+		<div class=" col-lg-2 col-md-2 col-sm-2 text-center">
 			<a href="?requete=acceuil" title="Return to the homepage" id="logo">
 				<img src="img/alter-logo.jpg" alt="Alter" />
 			</a>
-		</section>
+		</div>
         <?php
         session_start();
+
         if(isset($_SESSION['ClientNom'])){
+
         ?>
-		<section class="col-lg-5 col-md-5 col-sm-5 text-right">
+		<div class="col-lg-5 col-md-5 col-sm-5 text-right">
 			<p href="?requete=login">Bienvenue, <?php echo $_SESSION['ClientNom']?>
             <a href="?requete=panier"><i class="fa fa-shopping-cart fa-2x"></i> [2]</a></p>
             <a href="?requete=logout">Logout</a>
-        </section>
+        </div>
         <?php
         }else{
+
         ?>
-		<section class="col-lg-5 col-md-5 col-sm-5 text-right">
-			<a href="?requete=login">SE CONNECTER</a>
-			<a href="?requete=formulaire">S'INSCRIRE</a>
-			<a href="?requete=panier"><i class="fa fa-shopping-cart fa-2x"></i> [2]</a>
-		</section>
+
+            <div class="col-lg-5 col-md-5 col-sm-5 text-right">
+                <a href="?requete=login">SE CONNECTER</a>
+                <a href="?requete=formulaire">S'INSCRIRE</a>
+                <a href="?requete=panier"><i class="fa fa-shopping-cart fa-2x"></i> [2]</a>
+            </div>
         <?php
         }
         ?>
@@ -105,7 +109,7 @@
 	<!-- /Header desktop -->
 	<!-- navigation -->
 	<nav class="container navbar navbar-default" role="navigation">
-		<section class=" navbar-header">
+		<div class=" navbar-header">
 			<button type="button" class=" navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
 				<span class="sr-only">Toggle navigation</span>
 				<span class="icon-bar"></span>
@@ -115,8 +119,8 @@
 			<a class="navbar-brand container smartphone-visible" href="#">
 				<img src="img/alter-logo.jpg" alt="Alter" />
 			</a>
-		</section>
-		<section class="collapse navbar-collapse" id="example-navbar-collapse">
+		</div>
+		<div class="collapse navbar-collapse" id="example-navbar-collapse">
 			<ul class="nav navbar-nav">
 				<li><a href="?requete=acceuil">ACCUEIL</a></li>
 				<li><a href="?requete=magazine">MAGAZINE</a></li>
@@ -124,9 +128,9 @@
 				<li><a href="?requete=produit">SPÉCIFICATIONS</a></li>
 				<li><a href="?requete=contact">CONTACT</a></li>
 			</ul>
-		</section>
+		</div>
 	</nav>
-	<section class="smartphone-visible container navbar_base"></section>
+	<div class="smartphone-visible container navbar_base"></div>
 	<!-- /navigation -->
 			<?php 		
 				$oControleur = new Controler();	
@@ -134,8 +138,8 @@
 			?>
 			<!-- Footer -->
 	<footer class="container">
-		<section class="row">
-			<nav class="col-md-12 text-center">
+		<div class="row">
+			<div class="col-md-12 text-center">
 				<p>
 					<a href="?requete=politiqueretour">POLITIQUE DE RETOUR </a>
 					<a href="?requete=info_exp">INFORMATION D’EXP&Eacute;DITION</a>
@@ -145,10 +149,10 @@
                     <a href="?requete=admin?section=adminAcceuil">ADMINISTRATEUR</a>
 
                 </p>
-			</nav>
-		</section>
-		<section class="row">
-			<nav class="col-sm-12 text-center">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12 text-center">
 				<h3>
 					<a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
 					<a href="#" target="_blank"><i class="fa fa-youtube-square"></i></a>
@@ -156,11 +160,11 @@
 					<a href="#" target="_blank"><i class="fa fa-twitter-square"></i></a>
 					<a href="#" target="_blank"><i class="fa fa-google-plus-square"></i></a>  
 				</h3>
-			</nav>
-			<section class="col-sm-12  text-center">
+			</div>
+			<div class="col-sm-12  text-center">
 				<p>&copy; ALTER 2014</p>
-			</section>
-		</section>
+			</div>
+		</div>
 	</footer>
 	<!-- /Footer -->
 </body>

@@ -12,10 +12,7 @@ include("./modeles/Magazine.inc.class.php");
  * @license http://creativecommons.org/licenses/by-nc/3.0/deed.fr
  * 
  */
-
-
 class Magazine_detail {
-
 	/**
 	 * Affiche la page d'accueil 
 	 * @access public
@@ -29,6 +26,7 @@ class Magazine_detail {
     <!-- /Section -->
     <!-- Contenu -->
     <article class="container contenu_interne">
+		<!-- Methode pour generer information détaillé de produit -->
 		<?php
                 $instance = Produits::getInstance('tpalter','dbconnect');
             	$resultat =$instance->obtenir_produit_detail($_GET['id']); 
