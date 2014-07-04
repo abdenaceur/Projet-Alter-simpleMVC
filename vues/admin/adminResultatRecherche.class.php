@@ -1,44 +1,29 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js">
-<!--<![endif]-->
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title></title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
-
-    <script src="js/vendor/jquery-1.11.0.min.js"></script>
-    <script type='text/javascript' src='./js/menu_jquery.js'></script>
-    <!-- Utilisation du menu de http://cssmenumaker.com/menu/modern-jquery-accordion-menu# -->
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/normalize.min.css">
-    <link rel="stylesheet" href="./css/administrateur.css">
-    <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+<?php
+/**
+ * Class Vue
+ * Template de classe Vue. Dupliquer et modifier pour votre usage.
+ * 
+ * @author Jonathan Martel
+ * @version 1.0
+ * @update 2013-12-11
+ * @license Creative Commons BY-NC 3.0 (Licence Creative Commons Attribution - Pas d’utilisation commerciale 3.0 non transposé)
+ * @license http://creativecommons.org/licenses/by-nc/3.0/deed.fr
+ * 
+ */
 
 
+class adminResultatRecherche {
 
-    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-</head>
+	/**
+	 * Affiche la page d'accueil 
+	 * @access public
+	 * 
+	 */
+	public function afficheAdminResultatRecherche($resultatClient) {
+		?>
 
-<body>
-    <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-
-    
-        <header>
-            <h1>AlterWatch Administrateur CMS</h1>
-            <boutton class="deconnection btn"><a href="administrateurLogin.html">Déconnection</a></boutton>
-        </header>
-    <main>
+	
+     <main>
         <article class="conteneur">
             <aside class="gaucheMenu">
                 <nav id='cssmenu'>
@@ -107,36 +92,45 @@
 
             </aside>
             <aside class="droitContent">
-                <p>DERNIERE MODIFICATION</p>
-                <ul>
-                    <li>01/03/2014 - Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</li>
-                    <li>11/03/2014 - Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</li>
-                    <li>01/04/2014 - Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.</li>
-                    <li>21/06/2014 - Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.</li>
-                    <li>31/05/2014 - Sed adipiscing ornare risus. Morbi est est, blandit sit amet, sagittis vel, euismod vel, velit. Pellentesque egestas sem. Suspendisse commodo ullamcorper magna.</li>
-                    <li>06/03/2014 - Nulla sed leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li>
-                    <li>04/03/2014 - Fusce lacinia arcu et nulla. Nulla vitae mauris non felis mollis faucibus.</li>
+                <h2>Voici les resultats de la recherche</h2>
+                <table border="2">
+                    <tr>
+                        <td>ID Client</td>
+                        <td>Nom</td>
+                        <td>Prenom</td>
+                        <td>Email</td>
+                        <td>Ville</td>
+                        <td>Pays</td>
+                        <td>Modifier/Effacer</td>
+                    </tr>
+                    <?php
 
-                </ul>
+                    for($i=0;$i<sizeof($resultatClient);$i++){
+                        echo "<tr>";
+                        echo "<td>".$resultatClient[$i]['Client_ID']."</td>";
+                        echo "<td>".$resultatClient[$i]['Client_Nom']."</td>";
+                        echo "<td>".$resultatClient[$i]['Client_Prenom']."</td>";
+                        echo "<td>".$resultatClient[$i]['Client_Email']."</td>";
+                        echo "<td>".$resultatClient[$i]['Client_Ville']."</td>";
+                        echo "<td>".$resultatClient[$i]['Client_Pays']."</td>";
+                        echo "<td><input type='submit' value='Modifier'><input type='submit' value='Ajouter'> </td>";
 
+                        echo "</tr>";
+                    }
+                    ?>
+
+
+                </table>
             </aside>
         </article>
 
     </main>
 
-    <footer>
-        <p>Copyright - AlterWatch 2014</p>
-    </footer>
 
+		<?php
+		
+	}
+	
 
-
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-
-
-
-
-
-</body>
-
-</html>
+}
+?>

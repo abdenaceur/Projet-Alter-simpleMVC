@@ -95,18 +95,19 @@ class AdminClientRechercher {
             <aside class="droitContent">
                 <article class="login">
                 <h2>Rechercher un client</h2>
+                    <form name="rechercheClient" action="index.php?requete=admin&section=adminResultatRechecheClient" method="POST">
                 <label>Rechercher par </label>
-                <select>
-                    <option value="Nom">Nom</option>
-                    <option value="Nom">Email</option>
-                    <option value="Nom">Ville</option>
-                    
-                    
+                <select name="rechercherPar">
+                    <option value="Client_Nom">Nom</option>
+                    <option value="Client_Email">Email</option>
+                    <option value="Client_Ville">Ville</option>
+                    <option value="Client_Pays">Pays</option>
                 </select>
                 </br>
-                <input type="text"></br>
-            <input type="submit">
-            </article>
+                <input type="text" name="champRecherche"></br>
+            <input type="submit" value="Rechercher">
+                    </form>
+                </article>
                 
             </aside>
         </article>
