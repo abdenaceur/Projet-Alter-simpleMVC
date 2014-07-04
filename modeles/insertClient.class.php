@@ -44,7 +44,7 @@ class insertClient {
         VALUES ('$clientNom','$clientPrenom','$clientAdresse','$clientVille','$clientCodepostal','$clientPays','$clientTelephone','$clientEmail','$clientNomUtilisateur','$clientMdp')";
 
         $result1  = $this->id->query($insert1);
-
+return $result1;
 
     }
 }

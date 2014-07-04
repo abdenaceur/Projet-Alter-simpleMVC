@@ -2,7 +2,7 @@
    Author's custom styles
    ========================================================================== */
 /* font pour le texte*/
-h1,h2,h3,h4,h5,h6,p, ul, il, label, button, .header,.navbar  {
+h1,h2,h3,h4,h5,h6,p,label, button, .header,.navbar  {
 	font-family: 'Roboto Condensed', sans-serif;
 }
 /* coulor pour des liens*/
@@ -171,7 +171,7 @@ footer {
 .magazine a img:hover {
 	border: 1px #999999 solid;
 }
-.magazine a:link, .magazine a:visited {
+.magazine a:link {
 	color: #ffffff;
 }
 .magazine h1 {

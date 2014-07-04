@@ -26,6 +26,9 @@ class Controler
                     case 'adminLogin':
                         $this->adminLogin();
                         break;
+                    case 'adminResultatRechecheClient':
+                        $this->adminResultatRechercheClient();
+                        break;
                     case 'adminAcceuil':
                         $this->adminAccueil();
                         break;
@@ -82,6 +85,17 @@ class Controler
             $oVue=new adminLogin();
             $oVue->afficheLoginAdminEchouer();
         }
+    }
+    private function adminResultatRechercheClient()
+    {
+        $instanceRecherche = adminRechercheClient::getInstance('alterdb','dbconnect');
+        $resultatClient = $instanceRecherche->rechercheClient();
+
+        if($resultatClient){
+            $oVue = new adminResultatRecherche();
+            $oVue->afficheAdminResultatRecherche($resultatClient);
+        }
+
     }
 
     private function adminLogout()
@@ -153,8 +167,14 @@ class Controler
         $creerClientModule = insertClient::getInstance('alterdb','dbconnect');
         $confirmationCreerClient = $creerClientModule->insertClient();
 
+        if($confirmationCreerClient){
+            $oVue = new adminCreerClientReponse();
+            $oVue->afficheAdminCreerClientBonneReponse();
+
+        }else{
         $oVue = new adminCreerClientReponse();
-        $oVue->afficheAdminCreerClientReponse();
+        $oVue->afficheAdminCreerClientPasReponse();
+        }
     }
 
 
