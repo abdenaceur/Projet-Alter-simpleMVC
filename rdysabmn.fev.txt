@@ -1,0 +1,30 @@
+﻿Merge branch 'master' of https://github.com/maubayuelo/Alter-MVC
+
+Conflicts:
+	gabarit.projet.php
+	js/main.js
+	vues/magazine_detail.class.php
+	vues/magazine_list.class.php
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# All conflicts fixed but you are still merging.
+#   (use "git commit" to conclude merge)
+#
+# Changes to be committed:
+#
+#	new file:   gabarit.projet - Copy.php
+#	modified:   gabarit.projet.php
+#	modified:   js/main.js
+#	modified:   modeles/Magazine.inc.class.php
+#	deleted:    vues/magazine_detail.class.php
+#	deleted:    vues/magazine_list.class.php
+#
+
