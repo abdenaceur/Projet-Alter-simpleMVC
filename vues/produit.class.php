@@ -23,7 +23,7 @@ class produit {
 		?>
 		  <!-- Section -->
 	<article class="container text-center header_section">
-		<!-- <h2>LE PRODUIT</h2> -->
+		<h2>SP&Egrave;CIFICATIONS</h2>
 	</article>
 	<!-- /Section -->
 	<!-- Contenu -->
