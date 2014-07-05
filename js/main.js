@@ -1,3 +1,5 @@
+// Code par : Shane Hicks
+// http://codepen.io/ShaneHicks/pen/rJGLj
 $(document).ready(function() {
     var allSelectedClasses;
     allSelectedClasses = '';
