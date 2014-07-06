@@ -1,9 +1,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
 >>>>>>> 3d28d20d9435bac837f904997096477f974bb77f
+=======
+// Code par : Shane Hicks
+// http://codepen.io/ShaneHicks/pen/rJGLj
+>>>>>>> 80985b770f8c8b3eabfb3e1864a4c4c66a0f38d8
 $(document).ready(function() {
     var allSelectedClasses;
     allSelectedClasses = '';

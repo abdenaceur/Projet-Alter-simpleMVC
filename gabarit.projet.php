@@ -15,9 +15,6 @@
 	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
 	<link rel="stylesheet" href="css/main.css">
-    
-    
-    
     <!-- MVC -->
     	<link rel="stylesheet" href="./css/normalize.css" type="text/css" media="screen">
 		<link rel="stylesheet" href="./css/base_h5bp.css" type="text/css" media="screen">
@@ -141,9 +138,9 @@
 		<section class="row">
 			<nav class="col-md-12 text-center">
 				<p>
-					<a href="?requete=politiqueretour">POLITIQUE DE RETOUR </a>
 					<a href="?requete=info_exp">INFORMATION D’EXP&Eacute;DITION</a>
 					<a href="?requete=faq">FAQ</a>
+					<a href="?requete=politiqueretour">POLITIQUE DE RETOUR </a>
 					<a href="?requete=plandusite">PLAN DU SITE</a>
 					<a href="?requete=politiqueconfidentialite">POLITIQUE DE CONFIDENTIALIT&Eacute;</a>
                     <a href="?requete=admin&section=adminAcceuil">ADMINISTRATEUR</a>

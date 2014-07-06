@@ -200,7 +200,7 @@ class Produits {
 						<h2>$'.$produit_prix.'</h2>
 						<h2></h2>
 						<h4>Quantit&eacute; :</h4> 
-						<input type="text" class="form-control form_quantite" value="1">
+						<input type="text" class="form_quantite form-control " value="1">
 						<h2></h2>
 						<a href="#" class="btn btn-danger  btn-sm" role="button"><h5>ACHETER</h5></a>
 						<h2></h2>

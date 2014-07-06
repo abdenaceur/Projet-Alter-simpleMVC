@@ -21,7 +21,10 @@ class apropos {
 	 */
 	public function afficheApropos() {
 		?>
-
+	<article class="container text-center header_section">
+		<h2>&Agrave; PROPOS</h2>
+	</article>
+	<!-- /Section -->
 	<!-- Contenu -->
 	<article class="container contenu_interne">
 			<div class="col-lg-2 col-md-2 col-sm-1 col-xs-1">
@@ -46,8 +49,6 @@ class apropos {
 				<p>Alter fonde son approche client  sur la liberté de choix. Le client conçoit une montre à sa mesure et en fonction de ses besoins. Il est, avant toute chose, le point de départ de nos réflexions.</p>
 				
 				<p>Porter Alter, c’est porter l’avenir.</p>
-
-				</p>
 			</div>
 			<div class="col-lg-2 col-md-2 col-sm-1 col-xs-1">
 			</div>

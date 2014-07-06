@@ -2,7 +2,11 @@
    Author's custom styles
    ========================================================================== */
 /* font pour le texte*/
+<<<<<<< HEAD
 h1,h2,h3,h4,h5,h6,p,label, button, .header,.navbar  {
+=======
+h1,h2,h3,h4,h5,h6,p, ul,ol, li, label, button, .header,.navbar  {
+>>>>>>> 80985b770f8c8b3eabfb3e1864a4c4c66a0f38d8
 	font-family: 'Roboto Condensed', sans-serif;
 }
 /* coulor pour des liens*/
@@ -178,7 +182,7 @@ footer {
 	margin-top: 0px
 }
 .form_quantite {
-	width: 50px;
+	width: 30px;
 }
 .produit {
 	color: #ffffff;
