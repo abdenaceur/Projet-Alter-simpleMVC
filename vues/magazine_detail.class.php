@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // include pour obtenir des donées de magazine_list.class.php
 include("./modeles/Magazine.inc.class.php");
 /**
@@ -28,7 +28,7 @@ class Magazine_detail {
     <article class="container contenu_interne">
 		<!-- Methode pour generer information détaillé de produit -->
 		<?php
-                $instance = Produits::getInstance('tpalter','dbconnect');
+                $instance = Produits::getInstance('alterdb','dbconnect');
             	$resultat =$instance->obtenir_produit_detail($_GET['id']); 
         ?>
     </article>

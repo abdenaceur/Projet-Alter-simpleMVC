@@ -113,7 +113,7 @@ class adminResultatRecherche {
                         echo "<td>".$resultatClient[$i]['Client_Email']."</td>";
                         echo "<td>".$resultatClient[$i]['Client_Ville']."</td>";
                         echo "<td>".$resultatClient[$i]['Client_Pays']."</td>";
-                        echo "<td><input type='submit' value='Modifier'><input type='submit' value='Ajouter'> </td>";
+                        echo "<td><a href='index.php?requete=admin&section=adminModificationClient&clientid=".$resultatClient[$i]['Client_ID']."'><button type='submit' value='Modifier'>Modifier</button></a><a href='index.php?requete=admin&section=adminEffacerClient&clientid=".$resultatClient[$i]['Client_ID']."'><button href='index.php?requete=admin&section=adminEffacerClient' type='submit' value='Effacer'>Effacer</button> </a></td>";
 
                         echo "</tr>";
                     }

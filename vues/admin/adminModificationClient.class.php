@@ -12,19 +12,18 @@
  */
 
 
-class AdminProduitAjouter {
+class adminModificationClient {
 
 	/**
 	 * Affiche la page d'accueil 
 	 * @access public
 	 * 
 	 */
-	public function afficheAdminProduitAjouter() {
+	public function afficheAdminModificationClient($informationClient) {
 		?>
 
 	
-        <main>
-
+     <main>
         <article class="conteneur">
             <aside class="gaucheMenu">
                 <nav id='cssmenu'>
@@ -92,28 +91,25 @@ class AdminProduitAjouter {
                 </nav>
 
             </aside>
-            <aside class="droitContent" >
-                <h2>Ajouter un produit</h2>
+            <aside class="droitContent">
+                <h2>Ajouter un client</h2>
+                
+                <form name="creerClient" action="index.php?requete=admin&section=adminModificationClientConfirmation" method="POST">
+                    <input type="text" name="clientid" class="form-control" value="<?php echo $informationClient[0]['Client_ID'] ?>" hidden></br>
+                    <label>Nom:</label><input type="text" name="nom" class="form-control" value="<?php echo $informationClient[0]['Client_Nom'] ?>"></br>
+                    <label>Prénom:</label><input type="text" name="prenom" class="form-control" value="<?php echo $informationClient[0]['Client_Prenom'] ?>"></br>
+                    <label>Adresse:</label><input type="text" name="adresse" class="form-control" value="<?php echo $informationClient[0]['Client_Adresse'] ?>"></br>
+                    <label>Ville:</label><input name="ville" class="form-control" value="<?php echo $informationClient[0]['Client_Ville'] ?>"></br>
+                    <label>Code postal:</label><input type="text" name="codepostal" class="form-control" value="<?php echo $informationClient[0]['Client_Codepostal'] ?>"></br>
+                    <label>Pays:</label><input type="text" name="pays" class="form-control" value="<?php echo $informationClient[0]['Client_Pays'] ?>"></br>
+                    <label>Téléphone</label><input type="text" name="telephone" class="form-control" value="<?php echo $informationClient[0]['Client_Tel'] ?>"></br>
+                    <label>Email:</label><input type="text" name="email" class="form-control" value="<?php echo $informationClient[0]['Client_Email'] ?>"></br>
+                    <label>Nom utilisateur:</label><input type="text" name="nomUtilisateur" class="form-control" value="<?php echo $informationClient[0]['Client_NomUtilisateur'] ?>"></br>
 
-                <form name="creerProduit" action="index.php?requete=admin&section=adminCreerProduit" method="POST">
-                    <label>Nom:</label><input  class="form-control" type="text" name="produitNom"></br>
-                    <label>Code du produit:</label><input type="text"  class="form-control" name="produitCode"></br>
-                    <label>Couleur du bracelet:</label><input type="text" name="produitCouleur" class="form-control" ></br>
-                    <label>Description:</label><textarea name="produitDesc" class="form-control" ></textarea></br>
-                    <label>Système d'opération:</label><input type="text" name="produitOS" class="form-control" ></br>
-                    <label>Contre l'eau</label><input type="text" name="produitWaterproof" class="form-control" ></br>
-                    <label>Écran tactile</label><input type="text" name="produitTactile" class="form-control" ></br>
-                    <label>Résolution:</label><input type="text" name="produitResolution" class="form-control" ></br>
-                    <label>Microphone:</label><input type="text" name="produitMicrophone" class="form-control" ></br>
-                    <label>Camera:</label><input type="text" name="produitCamera" class="form-control" ></br>
-                    <label>Résolution de la caméra</label><input type="text" name="produitResolutionCamera" class="form-control" ></br>
-                    <label>Haut parleur:</label><input type="text" name="produitHautparleur" class="form-control" ></br>
-                    <label>Poids du produit:</label><input type="text" name="produitPoids" class="form-control" ></br>
-                    <label>Prix du produit:</label><input type="text" name="produitPrix" class="form-control" ></br>
-                    <label>Longeur du produit:</label><input type="text" name="produitLongeur" class="form-control" ></br>
-                    <label>Largeur du produit:</label><input type="text" name="produitLargeur" class="form-control" ></br>
+                    
                     <input type="submit">
                 </form>
+                
                 
             </aside>
         </article>

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // include pour obtenir des donées de magazine_list.class.php
 include("./modeles/Magazine.inc.class.php");
 /**
@@ -31,7 +31,7 @@ class Magazine_list {
             <section class="col-lg-12 col-md-12 col-sm-3 col-xs-6 magazine">
 				<!-- generation de Checkboxes pour filtre de style-->
                 <?php
-                $instance = Produits::getInstance('tpalter','dbconnect');
+                $instance = Produits::getInstance('alterdb','dbconnect');
                 $resultat =$instance->obtenir_style_filtre(); 
                 ?>
             </section>

@@ -62,6 +62,19 @@ class Controler
                     case 'adminCreerClient':
                         $this->adminCreerClient();
                         break;
+                    case 'adminModificationClient':
+                        $this->adminModificationClient();
+                        break;
+                    case 'adminEffacerClient':
+                        $this->adminEffacerClient();
+                        break;
+                    case 'adminModificationClientConfirmation':
+                        $this->adminModificationClientConfirmation();
+                        break;
+                    case 'adminCreerProduit':
+                        $this->adminCreerProduit();
+                        break;
+
                     default:
                         $this->adminLogin();
                         break;
@@ -70,6 +83,20 @@ class Controler
                 $this->adminLogin();
             }
         }
+
+
+    private function adminCreerProduit()
+    {
+        $creerProduitModule = insertProduit::getInstance('alterdb','dbconnect');
+        $confirmationCreerProduit = $creerProduitModule->insertProduit();
+        if($confirmationCreerProduit){
+            $oVue = new adminCreerProduitReponse();
+            $oVue->afficheAdminCreerProduitBonneReponse();
+        }else{
+            $oVue = new adminCreerProduitReponse();
+            $oVue->afficheAdminCreerProduitPasReponse();
+        }
+    }
 
 
     private function adminLoginConf(){
@@ -86,6 +113,7 @@ class Controler
             $oVue->afficheLoginAdminEchouer();
         }
     }
+
     private function adminResultatRechercheClient()
     {
         $instanceRecherche = adminRechercheClient::getInstance('alterdb','dbconnect');
@@ -122,7 +150,6 @@ class Controler
         $oVue = new adminClientAjouter();
         $oVue->afficheAdminClientAjouter();
     }
-
 
     private function adminClientModifierEffacer()
     {
@@ -161,21 +188,61 @@ class Controler
         $oVue = new adminProduitRechercher();
         $oVue->afficheAdminProduitRechercher();
     }
-    private function adminCreerClient()
 
+    private function adminCreerClient()
     {
         $creerClientModule = insertClient::getInstance('alterdb','dbconnect');
         $confirmationCreerClient = $creerClientModule->insertClient();
-
         if($confirmationCreerClient){
             $oVue = new adminCreerClientReponse();
             $oVue->afficheAdminCreerClientBonneReponse();
-
         }else{
         $oVue = new adminCreerClientReponse();
         $oVue->afficheAdminCreerClientPasReponse();
         }
     }
+
+    private function adminModificationClient()
+
+    {
+        $informationClientConnection = modeleInformationClient::getInstance('alterdb','dbconnect');
+        $informationClient = $informationClientConnection->getInformationClient();
+
+        //Apelle du modele qui va checher les informations
+        $oVue = new adminModificationClient();
+        $oVue->afficheAdminModificationClient($informationClient);
+    }
+
+    private function adminEffacerClient()
+    {
+        $effacerClientConnection = modeleEffacerClient::getInstance('alterdb','dbconnect');
+        //Apelle du modele qui va checher les informations
+        $effacerClientConfirmation = $effacerClientConnection->effacerClient();
+        $oVue = new adminClientEffacerConfirmation();
+        if($effacerClientConfirmation)
+            {
+                $oVue->afficheAdminEffacerClientBonneReponse();
+            }
+        else
+            {
+                $oVue->afficheAdminEffacerClientMauvaiseReponse();
+            }
+    }
+
+    private function adminModificationClientConfirmation()
+    {
+        $modificationClientConnection = modeleInformationClient::getInstance('alterdb','dbconnect');
+        $modificationClient = $modificationClientConnection->setInformationClient();
+        if($modificationClient){
+
+
+        $oVue = new adminModificationClientConfirmation();
+        $oVue->afficheAdminModificationClientConfirmation();
+        }else{
+            $oVue = new adminModificationClientConfirmation();
+            $oVue->afficheAdminModificationClientEchec();
+            }
+        }
 
 
     public function gerer()
@@ -225,7 +292,6 @@ class Controler
                 case 'formulaire':
                     $this->formulaire();
                     break;
-
                 case 'faq':
                     $this->faq();
                     break;
@@ -256,7 +322,6 @@ class Controler
         if($verificationUsername){
             $oVue=new loginClient();
             $oVue->afficheLoginReussite();
-
         }else{
             $oVue=new loginClient();
             $oVue->afficheLoginEchouer();

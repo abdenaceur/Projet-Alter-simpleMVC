@@ -48,7 +48,10 @@
     <?php }
         ?>
     </header>
-        </br></br></br></br>
+    </br>
+    </br>
+    </br>
+    </br>
 
     <?php $oControleur=new Controler(); $oControleur->gererAdmin(); ?>
     <footer>
