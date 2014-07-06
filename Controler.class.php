@@ -47,9 +47,6 @@ class Controler
                     case 'adminMiseEnPage':
                         $this->adminMiseEnPage();
                         break;
-                    case 'adminProduitAjouter':
-                        $this->adminProduitAjouter();
-                        break;
                     case 'adminProduitRechercher':
                         $this->adminProduitRechercher();
                         break;
@@ -74,6 +71,21 @@ class Controler
                     case 'adminCreerProduit':
                         $this->adminCreerProduit();
                         break;
+                    case 'adminProduitAjouter':
+                        $this->adminProduitAjouter();
+                        break;
+                    case 'adminEffacerProduit':
+                        $this->adminEffacerProduit();
+                        break;
+                    case 'adminResultatRechecherProduit':
+                        $this->adminResultatRechercheProduit();
+                        break;
+                    case 'adminModificationProduit':
+                        $this->adminModificationProduit();
+                        break;
+                    case 'adminModificationProduitConfirmation':
+                        $this->adminModificationProduitConfirmation();
+                        break;
 
                     default:
                         $this->adminLogin();
@@ -97,6 +109,61 @@ class Controler
             $oVue->afficheAdminCreerProduitPasReponse();
         }
     }
+
+    private function adminEffacerProduit()
+    {
+        $effacerProduitConnection = modeleEffacerProduit::getInstance('alterdb','dbconnect');
+        //Apelle du modele qui va checher les informations
+        $effacerProduitConfirmation = $effacerProduitConnection->effacerProduit();
+        $oVue = new adminProduitEffacerConfirmation();
+        if($effacerProduitConfirmation)
+        {
+            $oVue->afficheAdminEffacerProduitBonneReponse();
+        }
+        else
+        {
+            $oVue->afficheAdminEffacerProduitMauvaiseReponse();
+        }
+    }
+
+    private function adminResultatRechercheProduit()
+    {
+        $instanceRecherche = adminRechercheProduit::getInstance('alterdb','dbconnect');
+        $resultatProduit = $instanceRecherche->rechercheProduit();
+
+        if($resultatProduit){
+            $oVue = new adminResultatRechercheProduit();
+            $oVue->afficheAdminResultatRechercheProduit($resultatProduit);
+        }
+
+    }
+    private function adminModificationProduit()
+
+    {
+        $informationProduitConnection = modeleInformationProduit::getInstance('alterdb','dbconnect');
+        $informationProduit = $informationProduitConnection->getInformationProduit();
+
+        //Apelle du modele qui va checher les informations
+        $oVue = new adminModificationProduit();
+        $oVue->afficheAdminModificationProduit($informationProduit);
+    }
+
+    private function adminModificationProduitConfirmation()
+    {
+        $modificationProduitConnection = modeleInformationProduit::getInstance('alterdb','dbconnect');
+        $modificationProduit = $modificationProduitConnection->setInformationProduit();
+        if($modificationProduit){
+
+
+            $oVue = new adminModificationProduitConfirmation();
+            $oVue->afficheAdminModificationProduitConfirmation();
+        }else{
+            $oVue = new adminModificationProduitConfirmation();
+            $oVue->afficheAdminModificationProduitEchec();
+        }
+    }
+
+
 
 
     private function adminLoginConf(){
@@ -228,6 +295,8 @@ class Controler
                 $oVue->afficheAdminEffacerClientMauvaiseReponse();
             }
     }
+
+
 
     private function adminModificationClientConfirmation()
     {

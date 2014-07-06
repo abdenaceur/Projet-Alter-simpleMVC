@@ -93,23 +93,25 @@ class adminProduitRechercher{
             <aside class="droitContent">
                 <article class="login">
                 <h2>Rechercher un produit</h2>
-                <label>Rechercher par </label>
-                <select>
-                    <option value="Nom">Nom</option>
-                    <option value="Nom">Code du produit</option>
-                    <option value="Nom">Systeme d'exploitation</option>
+                    <form name="rechercheProduit" action="index.php?requete=admin&section=adminResultatRechecherProduit" method="POST">
+                        <label>Rechercher par </label>
+                        <select name="rechercherPar">
+
+                    <option value="Produit_Nom">Nom</option>
+                    <option value="Produit_Code">Code du produit</option>
+                    <option value="Produit_OS">Systeme d'exploitation</option>
                     
                     
                 </select>
                 </br>
-                <input type="text"  class="form-control" ></br>
-            <input type="submit">
+                        <input type="text" name="champRecherche"></br>
+                        <input type="submit" value="Rechercher">
+                        </form>
             </article>
             </aside>
         </article>
 
     </main>
-
 
 
 		<?php

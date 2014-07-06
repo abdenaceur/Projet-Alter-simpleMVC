@@ -21,14 +21,14 @@
     <disable_hints />
   </component>
   <component name="DockManager">
-    <window id="1">
+    <window id="2">
       <content type="file-editors">
         <state>
           <leaf>
-            <file leaf-file-name="adminProduitAjouter.class.php" pinned="false" current="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/vues/admin/adminProduitAjouter.class.php">
+            <file leaf-file-name="adminModificationProduit.class.php" pinned="false" current="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/vues/admin/adminModificationProduit.class.php">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="107" column="80" selection-start="4936" selection-end="4936" vertical-scroll-proportion="0.48049054" vertical-offset="1218" max-vertical-offset="2142">
+                  <state line="97" column="121" selection-start="3968" selection-end="3968" vertical-scroll-proportion="0.3457627" vertical-offset="1173" max-vertical-offset="4556">
                     <folding />
                   </state>
                 </provider>
@@ -45,91 +45,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="adminModificationClientConfirmation.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vues/admin/adminModificationClientConfirmation.class.php">
+      <file leaf-file-name="modeleInformationClient.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modeles/modeleInformationClient.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="174" column="61" selection-start="7350" selection-end="7350" vertical-scroll-proportion="-59.384617" vertical-offset="1414" max-vertical-offset="3179">
+            <state line="50" column="37" selection-start="1484" selection-end="1484" vertical-scroll-proportion="-18.346153" vertical-offset="373" max-vertical-offset="1258">
               <folding>
-                <element signature="e#6#360#0" expanded="true" />
+                <marker date="1404678686507" expanded="true" signature="771:967" placeholder="SELECT Clien..client..." />
+                <marker date="1404678686507" expanded="true" signature="1599:1926" placeholder="UPDATE clien..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adminClientAjouter.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vues/admin/adminClientAjouter.class.php">
+      <file leaf-file-name="Controler.class.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Controler.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="96" column="34" selection-start="3697" selection-end="3811" vertical-scroll-proportion="-10.846154" vertical-offset="1180" max-vertical-offset="2057">
+            <state line="154" column="33" selection-start="5846" selection-end="5846" vertical-scroll-proportion="0.46659243" vertical-offset="2029" max-vertical-offset="8551">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adminClientEffacerConfirmation.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vues/admin/adminClientEffacerConfirmation.class.php">
+      <file leaf-file-name="adminModificationProduitConfirmation.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vues/admin/adminModificationProduitConfirmation.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="37" selection-start="1645" selection-end="1645" vertical-scroll-proportion="68.92308" vertical-offset="2455" max-vertical-offset="3332">
+            <state line="21" column="50" selection-start="521" selection-end="521" vertical-scroll-proportion="41.846153" vertical-offset="1275" max-vertical-offset="3009">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adminClientRechercher.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vues/admin/adminClientRechercher.class.php">
+      <file leaf-file-name="modeleInformationProduit.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modeles/modeleInformationProduit.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="116" selection-start="3848" selection-end="3848" vertical-scroll-proportion="-12.153846" vertical-offset="1163" max-vertical-offset="2040">
-              <folding />
+            <state line="68" column="41" selection-start="2028" selection-end="2028" vertical-scroll-proportion="-33.384617" vertical-offset="288" max-vertical-offset="2499">
+              <folding>
+                <marker date="1404683570999" expanded="true" signature="776:830" placeholder="SELECT * FRO..produit..." />
+                <marker date="1404683570999" expanded="true" signature="3021:3713" placeholder="UPDATE produ..." />
+                <marker date="1404683570999" expanded="true" signature="3823:4151" placeholder="UPDATE produ..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adminResultatRecherche.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vues/admin/adminResultatRecherche.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="111" column="81" selection-start="4458" selection-end="4458" vertical-scroll-proportion="-13.615385" vertical-offset="1363" max-vertical-offset="2227">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="insertProduit.class.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="insertProduit.class.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modeles/insertProduit.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="55" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.48802736" vertical-offset="235" max-vertical-offset="1139">
+            <state line="31" column="8" selection-start="702" selection-end="3424" vertical-scroll-proportion="-17.653847" vertical-offset="68" max-vertical-offset="2142">
               <folding>
-                <marker date="1404670213896" expanded="true" signature="1465:1809" placeholder="INSERT INTO ..." />
+                <marker date="1404673023307" expanded="true" signature="2640:3347" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="modeleEffacerClient.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modeles/modeleEffacerClient.class.php">
+      <file leaf-file-name="gabarit.projet.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gabarit.projet.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="53" selection-start="556" selection-end="556" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="833">
-              <folding>
-                <marker date="1404666783923" expanded="true" signature="717:757" placeholder="DELETE FROM ..." />
-                <marker date="1404666783923" expanded="true" signature="717:757" placeholder="DELETE FROM ..." />
-                <marker date="1404666783923" expanded="true" signature="717:773" placeholder="DELETE FROM ..." />
-                <marker date="1404666783923" expanded="true" signature="717:760" placeholder="DELETE FROM ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gabaritAdmin.projet.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gabaritAdmin.projet.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="0" selection-start="1790" selection-end="1790" vertical-scroll-proportion="-29.423077" vertical-offset="153" max-vertical-offset="1326">
+            <state line="16" column="47" selection-start="851" selection-end="851" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="3570">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adminModificationClient.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vues/admin/adminModificationClient.class.php">
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="52" selection-start="4373" selection-end="4373" vertical-scroll-proportion="-23.423077" vertical-offset="921" max-vertical-offset="2074">
+            <state line="26" column="15" selection-start="569" selection-end="569" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5100">
               <folding />
             </state>
           </provider>
@@ -150,13 +132,24 @@
       <list>
         <option value="$PROJECT_DIR$/vues/admin/adminModificationClient.class.php" />
         <option value="$PROJECT_DIR$/vues/admin/adminModificationClientConfirmation.class.php" />
-        <option value="$PROJECT_DIR$/modeles/modeleInformationClient.class.php" />
         <option value="$PROJECT_DIR$/vues/admin/adminResultatRecherche.class.php" />
         <option value="$PROJECT_DIR$/gabaritAdmin.projet.php" />
         <option value="$PROJECT_DIR$/modeles/modeleEffacerClient.class.php" />
-        <option value="$PROJECT_DIR$/Controler.class.php" />
+        <option value="$PROJECT_DIR$/vues/admin/adminClientAjouter.class.php" />
         <option value="$PROJECT_DIR$/vues/admin/adminProduitAjouter.class.php" />
         <option value="$PROJECT_DIR$/modeles/insertProduit.class.php" />
+        <option value="$PROJECT_DIR$/vues/admin/adminCreerProduitReponse.class.php" />
+        <option value="$PROJECT_DIR$/modeles/modeleEffacerProduit.class.php" />
+        <option value="$PROJECT_DIR$/vues/admin/adminProduitEffacerConfirmation.class.php" />
+        <option value="$PROJECT_DIR$/modeles/adminRechercheProduit.class.php" />
+        <option value="$PROJECT_DIR$/vues/admin/adminProduitRechercher.class.php" />
+        <option value="$PROJECT_DIR$/vues/admin/adminResultatRechercheProduit.class.php" />
+        <option value="$PROJECT_DIR$/modeles/modeleInformationClient.class.php" />
+        <option value="$PROJECT_DIR$/Controler.class.php" />
+        <option value="$PROJECT_DIR$/vues/admin/adminModificationProduitConfirmation.class.php" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/modeles/modeleInformationProduit.class.php" />
+        <option value="$PROJECT_DIR$/vues/admin/adminModificationProduit.class.php" />
       </list>
     </option>
   </component>
@@ -253,7 +246,35 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Module Administrateur" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projet-Alter-simpleMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projet-Alter-simpleMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="modeles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projet-Alter-simpleMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projet-Alter-simpleMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -264,9 +285,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\Projet-Alter-simpleMVC\vues\admin" />
       <recent name="C:\wamp\www\Projet-Alter-simpleMVC\modeles" />
     </key>
   </component>
@@ -296,7 +319,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -340,9 +363,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="26" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="867">
           <folding>
-            <marker date="1404666178452" expanded="true" signature="-1:-1" placeholder="SELECT Clien..client..." />
-            <marker date="1404666178452" expanded="true" signature="-1:-1" placeholder="UPDATE clien..." />
-            <marker date="1404666178452" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1404678686507" expanded="true" signature="771:967" placeholder="SELECT Clien..client..." />
+            <marker date="1404678686507" expanded="true" signature="1599:1926" placeholder="UPDATE clien..." />
           </folding>
         </state>
       </provider>
@@ -350,7 +372,9 @@
     <entry file="file://$PROJECT_DIR$/vues/admin/adminProduitAjouter.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="29" selection-start="883" selection-end="883" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="2312">
-          <folding />
+          <folding>
+            <element signature="e#6#360#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -400,21 +424,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gabarit.projet.php">
+    <entry file="file://$PROJECT_DIR$/vues/admin/adminClientEffacerConfirmation.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="1480" selection-end="1480" vertical-scroll-proportion="-1.8461539" vertical-offset="479" max-vertical-offset="3621">
+        <state line="49" column="37" selection-start="1645" selection-end="1645" vertical-scroll-proportion="68.92308" vertical-offset="2455" max-vertical-offset="3332">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modeles/modeleInformationClient.class.php">
+    <entry file="file://$PROJECT_DIR$/gabaritAdmin.projet.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="47" selection-start="1978" selection-end="1978" vertical-scroll-proportion="-24.076923" vertical-offset="326" max-vertical-offset="1258">
+        <state line="54" column="0" selection-start="1790" selection-end="1790" vertical-scroll-proportion="-29.423077" vertical-offset="153" max-vertical-offset="1326">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/admin/adminModificationClient.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="52" selection-start="4373" selection-end="4373" vertical-scroll-proportion="-23.423077" vertical-offset="921" max-vertical-offset="2074">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Module Administrateur/administrateurProduitAjouter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="5" selection-start="1591" selection-end="11347" vertical-scroll-proportion="-8.5" vertical-offset="442" max-vertical-offset="5151">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/admin/adminClientAjouter.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="53" selection-start="1016" selection-end="1016" vertical-scroll-proportion="-0.49258837" vertical-offset="1061" max-vertical-offset="2244">
           <folding>
-            <marker date="1404666178452" expanded="true" signature="-1:-1" placeholder="SELECT Clien..client..." />
-            <marker date="1404666178452" expanded="true" signature="-1:-1" placeholder="UPDATE clien..." />
-            <marker date="1404666178452" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <element signature="e#6#360#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/admin/adminResultatRecherche.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="111" column="81" selection-start="4458" selection-end="4458" vertical-scroll-proportion="-13.615385" vertical-offset="1363" max-vertical-offset="2227">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -427,63 +477,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vues/admin/adminClientEffacerConfirmation.class.php">
+    <entry file="file://$PROJECT_DIR$/vues/admin/adminCreerProduitReponse.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="37" selection-start="1645" selection-end="1645" vertical-scroll-proportion="68.92308" vertical-offset="2455" max-vertical-offset="3332">
+        <state line="31" column="74" selection-start="778" selection-end="778" vertical-scroll-proportion="25.5" vertical-offset="1020" max-vertical-offset="3196">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vues/admin/adminClientRechercher.class.php">
+    <entry file="file://$PROJECT_DIR$/modeles/modeleEffacerProduit.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="116" selection-start="3848" selection-end="3848" vertical-scroll-proportion="-12.153846" vertical-offset="1163" max-vertical-offset="2040">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gabaritAdmin.projet.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="1790" selection-end="1790" vertical-scroll-proportion="-29.423077" vertical-offset="153" max-vertical-offset="1326">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vues/admin/adminResultatRecherche.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="81" selection-start="4458" selection-end="4458" vertical-scroll-proportion="-13.615385" vertical-offset="1363" max-vertical-offset="2227">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vues/admin/adminModificationClient.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="52" selection-start="4373" selection-end="4373" vertical-scroll-proportion="-23.423077" vertical-offset="921" max-vertical-offset="2074">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modeles/modeleEffacerClient.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="53" selection-start="556" selection-end="556" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="833">
-          <folding>
-            <marker date="1404666783923" expanded="true" signature="717:757" placeholder="DELETE FROM ..." />
-            <marker date="1404666783923" expanded="true" signature="717:757" placeholder="DELETE FROM ..." />
-            <marker date="1404666783923" expanded="true" signature="717:773" placeholder="DELETE FROM ..." />
-            <marker date="1404666783923" expanded="true" signature="717:760" placeholder="DELETE FROM ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vues/admin/adminClientAjouter.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="34" selection-start="3697" selection-end="3811" vertical-scroll-proportion="-10.846154" vertical-offset="1180" max-vertical-offset="2057">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="51" selection-start="3373" selection-end="3373" vertical-scroll-proportion="-21.961538" vertical-offset="823" max-vertical-offset="7378">
+        <state line="35" column="24" selection-start="857" selection-end="857" vertical-scroll-proportion="-22.884615" vertical-offset="0" max-vertical-offset="833">
           <folding />
         </state>
       </provider>
@@ -492,24 +495,131 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="174" column="61" selection-start="7350" selection-end="7350" vertical-scroll-proportion="-59.384617" vertical-offset="1414" max-vertical-offset="3179">
           <folding>
-            <element signature="e#6#360#0" expanded="true" />
+            <element signature="e#6#360#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modeles/adminRechercheProduit.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="146" selection-start="931" selection-end="931" vertical-scroll-proportion="-22.23077" vertical-offset="0" max-vertical-offset="884">
+          <folding>
+            <marker date="1404677085939" expanded="true" signature="-1:-1" placeholder="SELECT Produ..produit..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/admin/adminProduitRechercher.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="20" selection-start="4230" selection-end="4230" vertical-scroll-proportion="-18.038462" vertical-offset="1112" max-vertical-offset="2006">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/admin/adminResultatRechercheProduit.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="0" selection-start="4145" selection-end="4145" vertical-scroll-proportion="-35.846153" vertical-offset="700" max-vertical-offset="2227">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/admin/adminClientRechercher.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="25" selection-start="4233" selection-end="4233" vertical-scroll-proportion="0.513363" vertical-offset="1137" max-vertical-offset="2040">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modeles/modeleEffacerClient.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="53" selection-start="556" selection-end="556" vertical-scroll-proportion="0.34075725" vertical-offset="0" max-vertical-offset="898">
+          <folding>
+            <marker date="1404666783923" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1404666783923" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1404666783923" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1404666783923" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/admin/adminProduitEffacerConfirmation.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="112" column="42" selection-start="3977" selection-end="3977" vertical-scroll-proportion="-17.653847" vertical-offset="1275" max-vertical-offset="3264">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gabarit.projet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="47" selection-start="851" selection-end="851" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="3570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="15" selection-start="569" selection-end="569" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5100">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vues/admin/adminProduitAjouter.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="80" selection-start="4936" selection-end="4936" vertical-scroll-proportion="0.48049054" vertical-offset="1218" max-vertical-offset="2142">
-          <folding />
+        <state line="258" column="18" selection-start="13561" selection-end="13561" vertical-scroll-proportion="0.77257526" vertical-offset="3693" max-vertical-offset="4726">
+          <folding>
+            <element signature="e#6#360#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modeles/insertProduit.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="55" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.48802736" vertical-offset="235" max-vertical-offset="1139">
+        <state line="31" column="8" selection-start="702" selection-end="3424" vertical-scroll-proportion="-17.653847" vertical-offset="68" max-vertical-offset="2142">
           <folding>
-            <marker date="1404670213896" expanded="true" signature="1465:1809" placeholder="INSERT INTO ..." />
+            <marker date="1404673023307" expanded="true" signature="2640:3347" placeholder="INSERT INTO ..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/admin/adminModificationProduitConfirmation.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="50" selection-start="521" selection-end="521" vertical-scroll-proportion="41.846153" vertical-offset="1275" max-vertical-offset="3009">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modeles/modeleInformationClient.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="37" selection-start="1484" selection-end="1484" vertical-scroll-proportion="-18.346153" vertical-offset="373" max-vertical-offset="1258">
+          <folding>
+            <marker date="1404678686507" expanded="true" signature="771:967" placeholder="SELECT Clien..client..." />
+            <marker date="1404678686507" expanded="true" signature="1599:1926" placeholder="UPDATE clien..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/admin/adminModificationProduit.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="121" selection-start="3968" selection-end="3968" vertical-scroll-proportion="0.3457627" vertical-offset="1173" max-vertical-offset="4556">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modeles/modeleInformationProduit.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="41" selection-start="2028" selection-end="2028" vertical-scroll-proportion="-33.384617" vertical-offset="288" max-vertical-offset="2499">
+          <folding>
+            <marker date="1404683570999" expanded="true" signature="776:830" placeholder="SELECT * FRO..produit..." />
+            <marker date="1404683570999" expanded="true" signature="3021:3713" placeholder="UPDATE produ..." />
+            <marker date="1404683570999" expanded="true" signature="3823:4151" placeholder="UPDATE produ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controler.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="154" column="33" selection-start="5846" selection-end="5846" vertical-scroll-proportion="0.46659243" vertical-offset="2029" max-vertical-offset="8551">
+          <folding />
         </state>
       </provider>
     </entry>

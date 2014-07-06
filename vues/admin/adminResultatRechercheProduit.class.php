@@ -12,17 +12,17 @@
  */
 
 
-class AdminClientAjouter {
+class adminResultatRechercheProduit {
 
 	/**
 	 * Affiche la page d'accueil 
 	 * @access public
 	 * 
 	 */
-	public function afficheAdminClientAjouter() {
+	public function afficheAdminResultatRechercheProduit($resultatProduit) {
 		?>
 
-
+	
      <main>
         <article class="conteneur">
             <aside class="gaucheMenu">
@@ -92,31 +92,40 @@ class AdminClientAjouter {
 
             </aside>
             <aside class="droitContent">
-                <h2>Ajouter un client</h2>
+                <h2>Voici les resultats de la recherche</h2>
+                <table border="2">
+                    <tr>
+                        <td>ID Produit</td>
+                        <td>Nom</td>
+                        <td>Code du produit</td>
+                        <td>Style</td>
+                        <td>Materiel</td>
+                        <td>OS</td>
+                        <td>Modifier/Effacer</td>
+                    </tr>
+                    <?php
 
-                <form name="creerClient" action="index.php?requete=admin&section=adminCreerClient" method="POST">
-                    <label>Nom:</label><input type="text" name="nom" class="form-control" ></br>
-                    <label>Prénom:</label><input type="text" name="prenom" class="form-control" ></br>
-                    <label>Adresse:</label><input type="text" name="adresse" class="form-control" ></br>
-                    <label>Ville:</label><textarea name="ville" class="form-control" ></textarea></br>
-                    <label>Code postal:</label><input type="text" name="codepostal" class="form-control" ></br>
-                    <label>Pays:</label><input type="text" name="pays" class="form-control" ></br>
-                    <label>Téléphone</label><input type="text" name="telephone" class="form-control" ></br>
-                    <label>Email:</label><input type="text" name="email" class="form-control" ></br>
-                    <label>Nom utilisateur:</label><input type="text" name="nomUtilisateur" class="form-control" ></br>
-                    <label>Mots de passe:</label><input type="text" name="mdp" class="form-control" ></br>
+                    for($i=0;$i<sizeof($resultatProduit);$i++){
+                        echo "<tr>";
+                        echo "<td>".$resultatProduit[$i]['Produit_ID']."</td>";
+                        echo "<td>".$resultatProduit[$i]['Produit_Nom']."</td>";
+                        echo "<td>".$resultatProduit[$i]['Produit_Code']."</td>";
+                        echo "<td>".$resultatProduit[$i]['produit_style']."</td>";
+                        echo "<td>".$resultatProduit[$i]['produit_materiel']."</td>";
+                        echo "<td>".$resultatProduit[$i]['Produit_OS']."</td>";
+                        echo "<td><a href='index.php?requete=admin&section=adminModificationProduit&produitid=".$resultatProduit[$i]['Produit_ID']."'><button type='submit' value='Modifier'>Modifier</button></a><a href='index.php?requete=admin&section=adminEffacerProduit&produitid=".$resultatProduit[$i]['Produit_ID']."'><button href='index.php?requete=admin&section=adminEffacerProduit' type='submit' value='Effacer'>Effacer</button> </a></td>";
 
-                    <input type="submit">
-                </form>
+                        echo "</tr>";
+                    }
+                    ?>
 
 
+                </table>
             </aside>
         </article>
 
+    </main>
 
-     </main>
-
-	
 
 		<?php
 		
