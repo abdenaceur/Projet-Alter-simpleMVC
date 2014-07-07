@@ -202,7 +202,7 @@ class Produits {
 						<h4>Quantit&eacute; :</h4> 
 						<input type="text" class="form_quantite form-control " value="1">
 						<h2></h2>
-						<a href="#" class="btn btn-danger  btn-sm" role="button"><h5>ACHETER</h5></a>
+						<a href="index.php?requete=ajouter&produit='.$produit_id .'" class="btn btn-danger  btn-sm" role="button"><h5>ACHETER</h5></a>
 						<h2></h2>
 						<h3>Caract&eacute;ristiques :</h3>
 						<ul>

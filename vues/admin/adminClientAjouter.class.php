@@ -103,7 +103,7 @@ class AdminClientAjouter {
                     <label>Pays:</label><input type="text" name="pays" class="form-control" ></br>
                     <label>Téléphone</label><input type="text" name="telephone" class="form-control" ></br>
                     <label>Email:</label><input type="text" name="email" class="form-control" ></br>
-                    <label>Nom utilisateur:</label><input type="text" name="nomUtilisateur" class="form-control" ></br>
+
                     <label>Mots de passe:</label><input type="text" name="mdp" class="form-control" ></br>
 
                     <input type="submit">

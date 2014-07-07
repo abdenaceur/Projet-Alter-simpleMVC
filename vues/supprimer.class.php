@@ -1,4 +1,4 @@
-
+﻿
 <?php
 /**
  * Class Vue
@@ -12,32 +12,23 @@
  * 
  */
 
-class panier {
-
-
-   public function affichePanier() {
-	 
+class supprimer {
+     
+   public function supprimerProduit() {
+	
 	$n= nbProduitsDuPanier();
 		if($n >0)
-	  {   
-		    $pdo = PdoMontre::getPdoMontre();
-			$desIdProduit = getLesIdProduitsDuPanier();
-			$lesProduitsDuPanier = $pdo->getLesProduitsDuTableau($desIdProduit);
-			
-		   include ("v_panier.php");
-	  }
-	
-		else 
-		{
-		  
-		    $message = "panier vide !!";
-			include ("v_message.php");
-			
-		}
-       }
-     }
- ?>
-
-			
+		{   
+		$pdo = PdoMontre::getPdoMontre();
+		$idProduit=$_REQUEST['produit'];
+		retirerDuPanier($idProduit);
+		$desIdProduit = getLesIdProduitsDuPanier();
+		$lesProduitsDuPanier = $pdo->getLesProduitsDuTableau($desIdProduit);
+		include("v_panier.php");
 		
-
+		
+	   
+	}
+  }
+}
+ ?>

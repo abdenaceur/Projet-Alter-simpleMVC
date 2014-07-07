@@ -361,6 +361,9 @@ class Controler
                 case 'formulaire':
                     $this->formulaire();
                     break;
+                case 'formulaireConfirmation':
+                    $this->formulaireConfirmation();
+                    break;
                 case 'faq':
                     $this->faq();
                     break;
@@ -372,6 +375,12 @@ class Controler
                     break;
                 case 'logout':
                     $this->logout();
+                    break;
+                case 'supprimer':
+                    $this->supprimer();
+                    break;
+                case 'ajouter':
+                    $this->ajouter();
                     break;
 
                 default:
@@ -469,6 +478,20 @@ class Controler
         $oVue->afficheFormulaire();
     }
 
+    private function formulaireConfirmation()
+    {
+        $creerClientModule = insertClient::getInstance('alterdb','dbconnect');
+        $confirmationCreerClient = $creerClientModule->insertClientFrontend();
+        if($confirmationCreerClient){
+            $oVue = new formulaireCreerClientReponse();
+            $oVue->afficheFormulaireCreerClientBonneReponse();
+        }else{
+            $oVue = new formulaireCreerClientReponse();
+            $oVue->afficheFormulaireCreerClientPasReponse();
+        }
+
+    }
+
     private function faq()
     {
         $oVue = new faq();
@@ -486,6 +509,16 @@ class Controler
     {
         $oVue = new Logout();
         $oVue->afficheLogout();
+    }
+    private function supprimer()
+    {
+        $oVue = new supprimer();
+        $oVue->supprimerProduit();
+    }
+    private function ajouter()
+    {
+        $oVue = new ajouter();
+        $oVue->ajouterAuPanier();
     }
 
 }

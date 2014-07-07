@@ -37,14 +37,34 @@ class insertClient {
         $clientPays=$_POST['pays'];
         $clientTelephone=$_POST['telephone'];
         $clientEmail=$_POST['email'];
-        $clientNomUtilisateur=$_POST['nomUtilisateur'];
+
         $clientMdp=$_POST['mdp'];
 
-        $insert1 = "INSERT INTO client (Client_Nom,Client_Prenom,Client_Adresse,Client_Ville,Client_Codepostal,Client_Pays,Client_Tel,Client_Email,Client_NomUtilisateur,Client_Mdp)
-        VALUES ('$clientNom','$clientPrenom','$clientAdresse','$clientVille','$clientCodepostal','$clientPays','$clientTelephone','$clientEmail','$clientNomUtilisateur','$clientMdp')";
+        $insert1 = "INSERT INTO client (Client_Nom,Client_Prenom,Client_Adresse,Client_Ville,Client_Codepostal,Client_Pays,Client_Tel,Client_Email,Client_Mdp)
+        VALUES ('$clientNom','$clientPrenom','$clientAdresse','$clientVille','$clientCodepostal','$clientPays','$clientTelephone','$clientEmail','$clientMdp')";
 
         $result1  = $this->id->query($insert1);
 return $result1;
+
+    }
+    public function insertClientFrontend()
+    {
+        $clientNom=$_POST['nom'];
+        $clientPrenom=$_POST['prenom'];
+        $clientAdresse=$_POST['adresse'];
+        $clientVille=$_POST['ville'];
+        $clientCodepostal=$_POST['codepostal'];
+
+        $clientTelephone=$_POST['telephone'];
+        $clientEmail=$_POST['courriel'];
+
+        $clientMdp=$_POST['mdp'];
+
+        $insert1 = "INSERT INTO client (Client_Nom,Client_Prenom,Client_Adresse,Client_Ville,Client_Codepostal,Client_Tel,Client_Email,Client_Mdp)
+        VALUES ('$clientNom','$clientPrenom','$clientAdresse','$clientVille','$clientCodepostal','$clientTelephone','$clientEmail','$clientMdp')";
+
+        $result1  = $this->id->query($insert1);
+        return $result1;
 
     }
 }
