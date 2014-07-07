@@ -15,7 +15,7 @@ class produits {
 	//retourne une instance de la classe
     public static function getInstance($base, $param) {
         if(is_null(self::$instance)) {
-            self::$instance = new Produits($base, $param);
+            self::$instance = new produits($base, $param);
         }
         return self::$instance;
     }

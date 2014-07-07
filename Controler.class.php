@@ -325,9 +325,6 @@ class controler
                 case 'accueil':
                     $this->accueil();
                     break;
-                case 'magazine':
-                    $this->magazine();
-                    break;
                 case 'panier':
                     $this->panier();
                     break;

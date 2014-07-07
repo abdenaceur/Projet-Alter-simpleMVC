@@ -3,10 +3,16 @@
    ========================================================================== */
 /* font pour le texte*/
 
-h1,h2,h3,h4,h5,h6,p,label, button, .header,.navbar  {
+ul,li,ol,h1,h2,h3,h4,h5,h6,p,label, button, .header,.navbar  {
 
 
 	font-family: 'Roboto Condensed', sans-serif;
+}
+.AjusteMargeTop{
+    margin-top: -20px;
+}
+#adresse{
+    text-align: left;
 }
 .noTextdeco{
     list-style-type: none;

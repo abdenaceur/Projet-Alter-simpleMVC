@@ -59,7 +59,7 @@ class login {
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                     <h3>S'inscrire</h3>
                     <p>Sivous n'êtes pas déjà inscrit, cliquer sur le bouton et compléter le formulaire afin de bénéficier des promotions et de commander vos produits en toute tranquilité</p>
-                    <button type="submit" id="btn_form" class="btn btn-default">S'inscrire</button>
+                    <a type="submit" href="?requete=formulaire" id="btn_form" class="btn btn-default">S'inscrire</a>
                     <br />
                     <br />
                 </div>

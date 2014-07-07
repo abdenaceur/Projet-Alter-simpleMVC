@@ -72,6 +72,10 @@
 		</section>
 	</header>
 	<!-- /Header mobile -->
+    <?php
+    require_once("modeles/fonctions.inc.php");
+    require_once("modeles/class.pdoMontre.inc.php");
+    ?>
 	<!-- Header desktop -->
 	<header class=" container desktop-visible header">
 		<section class=" col-lg-5 col-md-5 col-sm-5">
@@ -87,40 +91,19 @@
 			</a>
 		</section>
         <?php
-
-        require_once("modeles/fonctions.inc.php");
-        require_once("modeles/class.pdoMontre.inc.php");
-
-        ?>
-        <?php
         session_start();
         if(isset($_SESSION['ClientNom'])){
-        ?>
-		<section id="barLogin" class="col-lg-5 col-md-5 col-sm-5 text-right">
-			<p href="?requete=login">Bienvenue, <?php echo $_SESSION['ClientNom']?>
-             <a href="?requete=panier"><i class="fa fa-shopping-cart fa-2x"></i>[
-                 <?php
+
+		echo "<section id='barLogin' class='col-lg-5 col-md-5 col-sm-5 text-right'> <span>Bienvenue, ";
+			echo $_SESSION['ClientNom'];
+            echo "</span><a href='?requete=panier'><i class='fa fa-shopping-cart fa-2x'></i>[";
+
                  $idclient=$_SESSION['ClientID'];
                  $ajouterProduitPanierModule = modeleAjoutRetirePanier::getInstance('e0588135','dbconnect');
                  $confirmationAjoutProduitPanier = $ajouterProduitPanierModule->getNumItemPanier($idclient);
 
                 echo $confirmationAjoutProduitPanier;
-
-
-
-                  //$n = 0;
-                    //if(isset($_SESSION['produits']))
-                    //{
-                        //$n = count($_SESSION['produits']);
-                    //}echo $n;?>]
-
-
-
-
-
-
-             </a></p>
-            <a href="?requete=logout">Logout</a>
+?>]</a> <a href="?requete=logout">Logout</a></p>
         </section>
         <?php
         }else{
@@ -164,7 +147,7 @@
 	</nav>
 	<section class="smartphone-visible container navbar_base"></section>
 	<!-- /navigation -->
-			<?php 		
+		<?php
 				$oControleur = new controler();
 				$oControleur->gerer();
 			?>

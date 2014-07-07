@@ -121,7 +121,7 @@ class formulaire {
                      <label class="control-label" for="autre" class="sexe">Autre</label>  
         </div>                
         <div class="form-group">
-          <label class="control-label" for="adresse">Adresse :</label>
+          <label class="control-label" id="adresse" for="adresse">Adresse :</label>
             <input class="form-control" type="text" id="adresse" name="adresse" value="<?php if(isset($_POST['adresse']))echo $_POST['adresse']?>" placeholder="Adresse" />
               <span class="help-inline"></span>
         </div>
