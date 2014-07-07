@@ -20,9 +20,12 @@ class loginClient {
 	 * 
 	 */
 	public function afficheLoginReussite() {
+?>
+        <article class="container text-center header_section">
+		<h2>Votre compte a ete connecter avec succes.</h2>
 
-        header('location:index.php');
-        ?>
+	</article>
+
     <!-- Section -->
 
     <!-- /Contenu -->

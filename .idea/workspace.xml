@@ -26,58 +26,77 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="panier.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vues/panier.class.php">
+      <file leaf-file-name="controler.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controler.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="0" selection-start="787" selection-end="787" vertical-scroll-proportion="-21.576923" vertical-offset="0" max-vertical-offset="663">
+            <state line="501" column="37" selection-start="15766" selection-end="15766" vertical-scroll-proportion="-132.53847" vertical-offset="1455" max-vertical-offset="9299">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modeleAjoutRetirePanier.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modeles/modeleAjoutRetirePanier.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="39" selection-start="1017" selection-end="1025" vertical-scroll-proportion="-10.153846" vertical-offset="382" max-vertical-offset="1802">
+              <folding>
+                <marker date="1404749178805" expanded="true" signature="773:859" placeholder="INSERT INTO ..." />
+                <marker date="1404749178805" expanded="true" signature="1050:1121" placeholder="SELECT Panie..panier..." />
+                <marker date="1404749178805" expanded="true" signature="1339:1395" placeholder="SELECT * FRO..panier..." />
+                <marker date="1404749178805" expanded="true" signature="1647:1733" placeholder="DELETE FROM ..." />
+                <marker date="1404749178805" expanded="true" signature="2247:2527" placeholder="UPDATE clien..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="info_expedition.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vues/info_expedition.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="7" selection-start="445" selection-end="445" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="1003">
+              <folding>
+                <marker date="1404752368197" expanded="true" signature="571:626" placeholder="..." />
+                <marker date="1404752368197" expanded="true" signature="708:2773" placeholder="..." />
+                <marker date="1404752368197" expanded="true" signature="761:771" placeholder="..." />
+                <marker date="1404752368197" expanded="true" signature="826:2698" placeholder="..." />
+                <marker date="1404752368197" expanded="true" signature="1187:1858" placeholder="..." />
+                <marker date="1404752368197" expanded="true" signature="2751:2761" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="apropos.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vues/apropos.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="0" selection-start="361" selection-end="361" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="1003">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="produit.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vues/produit.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="25" selection-start="582" selection-end="582" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="1224">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="supprimer.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vues/supprimer.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="36" selection-start="584" selection-end="584" vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="646">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="gabarit.projet.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.298/projet/gabarit.projet.php">
+        <entry file="file://$PROJECT_DIR$/gabarit.projet.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="14" selection-start="2323" selection-end="2323" vertical-scroll-proportion="-8.5" vertical-offset="714" max-vertical-offset="3400">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="class.pdoMontre.inc.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/modeles/class.pdoMontre.inc.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="44" selection-start="818" selection-end="818" vertical-scroll-proportion="0.2396789" vertical-offset="267" max-vertical-offset="1139">
-              <folding>
-                <marker date="1404691678748" expanded="true" signature="964:985" placeholder="select * fro..produit..." />
-                <marker date="1404691678748" expanded="true" signature="1297:1352" placeholder="select * fro..produit..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fonctions.inc.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modeles/fonctions.inc.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="33" selection-start="521" selection-end="521" vertical-scroll-proportion="-24.192308" vertical-offset="0" max-vertical-offset="1173">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="magazine.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.585/projet/vues/magazine.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="510">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="v_magazine.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vues/v_magazine.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="71" selection-start="5096" selection-end="5146" vertical-scroll-proportion="-25.384615" vertical-offset="1125" max-vertical-offset="2023">
+            <state line="98" column="21" selection-start="4045" selection-end="4053" vertical-scroll-proportion="-9.038462" vertical-offset="1431" max-vertical-offset="4165">
               <folding />
             </state>
           </provider>
@@ -86,48 +105,31 @@
       <file leaf-file-name="magazine_detail.class.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vues/magazine_detail.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="43" selection-start="1002" selection-end="1002" vertical-scroll-proportion="-20.26923" vertical-offset="0" max-vertical-offset="748">
+            <state line="31" column="56" selection-start="963" selection-end="1036" vertical-scroll-proportion="-20.26923" vertical-offset="0" max-vertical-offset="748">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Magazine.inc.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modeles/Magazine.inc.class.php">
+      <file leaf-file-name="magazine.inc.class.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modeles/magazine.inc.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="204" column="80" selection-start="9972" selection-end="9972" vertical-scroll-proportion="-16.884615" vertical-offset="3029" max-vertical-offset="4250">
+            <state line="169" column="39" selection-start="8533" selection-end="8533" vertical-scroll-proportion="0.5608856" vertical-offset="2417" max-vertical-offset="5593">
               <folding>
-                <marker date="1404691637979" expanded="true" signature="1116:1159" placeholder="SELECT DISTI..produit..." />
-                <marker date="1404691637979" expanded="true" signature="1865:1911" placeholder="SELECT DISTI..produit..." />
-                <marker date="1404691637979" expanded="true" signature="3005:3047" placeholder="SELECT DISTI..produit..." />
-                <marker date="1404691637979" expanded="true" signature="4174:4195" placeholder="SELECT * FRO..produit..." />
+                <marker date="1404754079642" expanded="true" signature="1116:1159" placeholder="SELECT DISTI..produit..." />
+                <marker date="1404754079642" expanded="true" signature="1865:1911" placeholder="SELECT DISTI..produit..." />
+                <marker date="1404754079642" expanded="true" signature="3005:3047" placeholder="SELECT DISTI..produit..." />
+                <marker date="1404754079642" expanded="true" signature="4174:4195" placeholder="SELECT * FRO..produit..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="formulaireCreerClientReponse.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vues/formulaireCreerClientReponse.class.php">
+      <file leaf-file-name="ajouter.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vues/ajouter.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="10" selection-start="901" selection-end="901" vertical-scroll-proportion="-21.576923" vertical-offset="0" max-vertical-offset="765">
-              <folding>
-                <marker date="1404689389902" expanded="true" signature="4:542" placeholder="..." />
-                <marker date="1404689389902" expanded="true" signature="600:662" placeholder="..." />
-                <marker date="1404689389902" expanded="true" signature="689:781" placeholder="..." />
-                <marker date="1404689389902" expanded="true" signature="838:900" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="insertClient.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modeles/insertClient.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="47" selection-start="1682" selection-end="1682" vertical-scroll-proportion="-20.807692" vertical-offset="394" max-vertical-offset="1360">
-              <folding>
-                <marker date="1404689760710" expanded="true" signature="1059:1356" placeholder="INSERT INTO ..." />
-                <marker date="1404689760710" expanded="true" signature="1827:2098" placeholder="INSERT INTO ..." />
-              </folding>
+            <state line="18" column="0" selection-start="425" selection-end="425" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="629">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -158,7 +160,6 @@
         <option value="$PROJECT_DIR$/vues/admin/adminProduitRechercher.class.php" />
         <option value="$PROJECT_DIR$/vues/admin/adminResultatRechercheProduit.class.php" />
         <option value="$PROJECT_DIR$/vues/admin/adminModificationProduitConfirmation.class.php" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/modeles/modeleInformationProduit.class.php" />
         <option value="$PROJECT_DIR$/vues/admin/adminModificationProduit.class.php" />
         <option value="$PROJECT_DIR$/js/main.js" />
@@ -169,14 +170,29 @@
         <option value="$PROJECT_DIR$/modeles/insertClient.class.php" />
         <option value="$PROJECT_DIR$/vues/admin/adminResultatRecherche.class.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/Rar$DRa0.322/projet/vues/panier.class.php" />
-        <option value="$PROJECT_DIR$/Controler.class.php" />
-        <option value="$PROJECT_DIR$/vues/panier.class.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/Rar$DRa0.298/projet/gabarit.projet.php" />
-        <option value="$PROJECT_DIR$/gabarit.projet.php" />
         <option value="$PROJECT_DIR$/vues/v_magazine.php" />
         <option value="$PROJECT_DIR$/modeles/Magazine.inc.class.php" />
-        <option value="$PROJECT_DIR$/modeles/class.pdoMontre.inc.php" />
         <option value="$PROJECT_DIR$/modeles/fonctions.inc.php" />
+        <option value="$PROJECT_DIR$/vues/ajouter.class.php" />
+        <option value="$PROJECT_DIR$/vues/v_panier.php" />
+        <option value="$PROJECT_DIR$/vues/panier.class.php" />
+        <option value="$PROJECT_DIR$/vues/supprimer.class.php" />
+        <option value="$PROJECT_DIR$/modeles/modeleAjoutRetirePanier.class.php" />
+        <option value="$PROJECT_DIR$/Base de donne/alterdb.sql" />
+        <option value="$PROJECT_DIR$/vues/magazine_list.class.php" />
+        <option value="$PROJECT_DIR$/dbconnect.inc.php" />
+        <option value="$PROJECT_DIR$/modeles/class.pdoMontre.inc.php" />
+        <option value="$PROJECT_DIR$/vues/login.class.php" />
+        <option value="$PROJECT_DIR$/Controler.class.php" />
+        <option value="$PROJECT_DIR$/gabarit.projet.php" />
+        <option value="$PROJECT_DIR$/vues/logout.class.php" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/vues/loginClient.class.php" />
+        <option value="$PROJECT_DIR$/vues/info_expedition.class.php" />
+        <option value="$PROJECT_DIR$/vues/magazine_detail.class.php" />
+        <option value="$PROJECT_DIR$/controler.class.php" />
+        <option value="$PROJECT_DIR$/modeles/magazine.inc.class.php" />
       </list>
     </option>
   </component>
@@ -213,6 +229,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -255,11 +272,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vues" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
+              <option name="myItemId" value="modeles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -273,7 +286,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="modeles" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -293,18 +306,18 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="SearchEverywhereHistory" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\Projet-Alter-simpleMVC\modeles" />
       <recent name="C:\wamp\www\Projet-Alter-simpleMVC\vues" />
       <recent name="C:\wamp\www\Projet-Alter-simpleMVC\vues\admin" />
-      <recent name="C:\wamp\www\Projet-Alter-simpleMVC\modeles" />
     </key>
   </component>
   <component name="RunManager">
@@ -339,6 +352,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.08947369" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14791666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -350,10 +364,9 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -373,90 +386,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vues/admin/adminProduitAjouter.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="29" selection-start="883" selection-end="883" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="2312" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modeles/adminRechercheClient.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="90" selection-start="871" selection-end="872" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="884">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="193" column="71" selection-start="6055" selection-end="6138" vertical-scroll-proportion="0.0" vertical-offset="3281" max-vertical-offset="7157">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vues/admin/adminModificationClient.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="8" selection-start="559" selection-end="559" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="2227">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vues/admin/adminClientRechercher.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2210" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vues/admin/adminResultatRecherche.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="37" selection-start="4016" selection-end="4016" vertical-scroll-proportion="0.0" vertical-offset="1734" max-vertical-offset="2397">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vues/admin/adminClientEffacerConfirmation.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="37" selection-start="1645" selection-end="1645" vertical-scroll-proportion="68.92308" vertical-offset="2455" max-vertical-offset="3332" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gabaritAdmin.projet.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="1790" selection-end="1790" vertical-scroll-proportion="-29.423077" vertical-offset="153" max-vertical-offset="1326" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vues/admin/adminModificationClient.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="52" selection-start="4373" selection-end="4373" vertical-scroll-proportion="-23.423077" vertical-offset="921" max-vertical-offset="2074">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module Administrateur/administrateurProduitAjouter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="5" selection-start="1591" selection-end="11347" vertical-scroll-proportion="-8.5" vertical-offset="442" max-vertical-offset="5151" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modeles/adminRechercheClient.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="116" selection-start="898" selection-end="898" vertical-scroll-proportion="-22.23077" vertical-offset="0" max-vertical-offset="884">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vues/admin/adminCreerProduitReponse.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="74" selection-start="778" selection-end="778" vertical-scroll-proportion="25.5" vertical-offset="1020" max-vertical-offset="3196" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modeles/modeleEffacerProduit.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="24" selection-start="857" selection-end="857" vertical-scroll-proportion="-22.884615" vertical-offset="0" max-vertical-offset="833">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vues/admin/adminModificationClientConfirmation.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="174" column="61" selection-start="7350" selection-end="7350" vertical-scroll-proportion="-59.384617" vertical-offset="1414" max-vertical-offset="3179" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modeles/adminRechercheProduit.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="146" selection-start="931" selection-end="931" vertical-scroll-proportion="-22.23077" vertical-offset="0" max-vertical-offset="884">
@@ -479,13 +408,6 @@
         <state line="104" column="25" selection-start="4233" selection-end="4233" vertical-scroll-proportion="0.513363" vertical-offset="1137" max-vertical-offset="2040" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modeles/modeleEffacerClient.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="53" selection-start="556" selection-end="556" vertical-scroll-proportion="0.34075725" vertical-offset="0" max-vertical-offset="898">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vues/admin/adminProduitEffacerConfirmation.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="112" column="42" selection-start="3977" selection-end="3977" vertical-scroll-proportion="-17.653847" vertical-offset="1275" max-vertical-offset="3264" />
@@ -496,121 +418,88 @@
         <state line="258" column="18" selection-start="13561" selection-end="13561" vertical-scroll-proportion="0.77257526" vertical-offset="3693" max-vertical-offset="4726" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modeles/insertProduit.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="8" selection-start="702" selection-end="3424" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="2142">
-          <folding>
-            <marker date="1404673023307" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vues/admin/adminModificationProduit.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="121" selection-start="3968" selection-end="3968" vertical-scroll-proportion="0.0" vertical-offset="1649" max-vertical-offset="4726">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="1" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5100">
-          <folding />
-        </state>
+        <state line="97" column="121" selection-start="3968" selection-end="3968" vertical-scroll-proportion="0.0" vertical-offset="1649" max-vertical-offset="4726" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vues/admin/adminModificationProduitConfirmation.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="50" selection-start="521" selection-end="521" vertical-scroll-proportion="6.5384617" vertical-offset="357" max-vertical-offset="3009">
-          <folding>
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404680673401" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="21" column="50" selection-start="521" selection-end="521" vertical-scroll-proportion="6.5384617" vertical-offset="357" max-vertical-offset="3009" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="66" selection-start="274" selection-end="274" vertical-scroll-proportion="0.14718615" vertical-offset="0" max-vertical-offset="924">
-          <folding />
-        </state>
+        <state line="8" column="66" selection-start="274" selection-end="274" vertical-scroll-proportion="0.14718615" vertical-offset="0" max-vertical-offset="924" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/formulaire.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="61" selection-start="5126" selection-end="5126" vertical-scroll-proportion="0.053452116" vertical-offset="2043" max-vertical-offset="3230">
-          <folding />
-        </state>
+        <state line="133" column="61" selection-start="5126" selection-end="5126" vertical-scroll-proportion="0.053452116" vertical-offset="2043" max-vertical-offset="3230" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/formulaire.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2839">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2839" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/admin/adminClientAjouter.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="113" column="18" selection-start="4838" selection-end="4838" vertical-scroll-proportion="-22.115385" vertical-offset="1176" max-vertical-offset="2074" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modeles/insertClient.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="47" selection-start="1682" selection-end="1682" vertical-scroll-proportion="0.0" vertical-offset="394" max-vertical-offset="1360">
+          <folding>
+            <marker date="1404689760710" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1404689760710" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.506/projet/Controler.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="158" column="0" selection-start="3096" selection-end="3285" vertical-scroll-proportion="0.68985176" vertical-offset="1911" max-vertical-offset="3145" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.531/projet/modele/fonctions.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="1" selection-start="514" selection-end="514" vertical-scroll-proportion="0.7004454" vertical-offset="0" max-vertical-offset="1190" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.322/projet/vues/panier.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="0" selection-start="791" selection-end="791" vertical-scroll-proportion="0.6057907" vertical-offset="0" max-vertical-offset="898" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/admin/adminResultatRecherche.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="129" column="13" selection-start="5196" selection-end="5196" vertical-scroll-proportion="-26.692308" vertical-offset="819" max-vertical-offset="1717" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.016/projet/Controler.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="16" selection-start="1475" selection-end="1584" vertical-scroll-proportion="0.6247216" vertical-offset="408" max-vertical-offset="3145" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.298/projet/gabarit.projet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="14" selection-start="2323" selection-end="2323" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="3400">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.585/projet/vues/magazine.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="680">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modeles/modeleInformationClient.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="150" selection-start="901" selection-end="901" vertical-scroll-proportion="0.1736111" vertical-offset="394" max-vertical-offset="1258">
+        <state line="32" column="150" selection-start="901" selection-end="901" vertical-scroll-proportion="0.22259887" vertical-offset="347" max-vertical-offset="1258">
           <folding>
             <marker date="1404689200349" expanded="true" signature="-1:-1" placeholder="SELECT Clien..client..." />
             <marker date="1404689200349" expanded="true" signature="-1:-1" placeholder="UPDATE clien..." />
@@ -618,23 +507,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/formulaire.js">
+    <entry file="file://$PROJECT_DIR$/modeles/insertProduit.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="149" column="50" selection-start="5032" selection-end="5032" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2839">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vues/magazine_list.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="42" selection-start="172" selection-end="172" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="1292">
+        <state line="112" column="24" selection-start="2627" selection-end="3423" vertical-scroll-proportion="-25.5" vertical-offset="1241" max-vertical-offset="2142">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modeles/modeleInformationProduit.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="41" selection-start="2028" selection-end="2028" vertical-scroll-proportion="0.0" vertical-offset="1156" max-vertical-offset="2499">
+        <state line="35" column="36" selection-start="882" selection-end="941" vertical-scroll-proportion="-20.807692" vertical-offset="54" max-vertical-offset="2499">
           <folding>
             <marker date="1404683570999" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..produit..." />
             <marker date="1404683570999" expanded="true" signature="-1:-1" placeholder="UPDATE produ..." />
@@ -643,151 +525,224 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vues/formulaire.class.php">
+    <entry file="file://$PROJECT_DIR$/modeles/modeleEffacerProduit.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="86" selection-start="6286" selection-end="6286" vertical-scroll-proportion="-18.846153" vertical-offset="1924" max-vertical-offset="3230">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vues/admin/adminClientAjouter.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="18" selection-start="4838" selection-end="4838" vertical-scroll-proportion="-22.115385" vertical-offset="1176" max-vertical-offset="2074">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modeles/insertClient.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="47" selection-start="1682" selection-end="1682" vertical-scroll-proportion="-20.807692" vertical-offset="394" max-vertical-offset="1360">
-          <folding>
-            <marker date="1404689760710" expanded="true" signature="1059:1356" placeholder="INSERT INTO ..." />
-            <marker date="1404689760710" expanded="true" signature="1827:2098" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vues/formulaireCreerClientReponse.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="10" selection-start="901" selection-end="901" vertical-scroll-proportion="-21.576923" vertical-offset="0" max-vertical-offset="765">
-          <folding>
-            <marker date="1404689389902" expanded="true" signature="4:542" placeholder="..." />
-            <marker date="1404689389902" expanded="true" signature="600:662" placeholder="..." />
-            <marker date="1404689389902" expanded="true" signature="689:781" placeholder="..." />
-            <marker date="1404689389902" expanded="true" signature="838:900" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.506/projet/Controler.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="158" column="0" selection-start="3096" selection-end="3285" vertical-scroll-proportion="0.68985176" vertical-offset="1911" max-vertical-offset="3145">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.531/projet/modele/fonctions.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="1" selection-start="514" selection-end="514" vertical-scroll-proportion="0.7004454" vertical-offset="0" max-vertical-offset="1190">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.322/projet/vues/panier.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="791" selection-end="791" vertical-scroll-proportion="0.6057907" vertical-offset="0" max-vertical-offset="898">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vues/admin/adminResultatRecherche.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="13" selection-start="5196" selection-end="5196" vertical-scroll-proportion="-26.692308" vertical-offset="819" max-vertical-offset="1717">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.016/projet/Controler.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="16" selection-start="1475" selection-end="1584" vertical-scroll-proportion="0.6247216" vertical-offset="408" max-vertical-offset="3145">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="374" column="26" selection-start="12666" selection-end="12666" vertical-scroll-proportion="47.846153" vertical-offset="7432" max-vertical-offset="9112">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gabarit.projet.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="23" selection-start="5055" selection-end="5055" vertical-scroll-proportion="0.8335234" vertical-offset="1377" max-vertical-offset="3876">
+        <state line="29" column="4" selection-start="663" selection-end="864" vertical-scroll-proportion="0.5621437" vertical-offset="0" max-vertical-offset="877">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vues/v_magazine.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="71" selection-start="5096" selection-end="5146" vertical-scroll-proportion="-25.384615" vertical-offset="1125" max-vertical-offset="2023">
+        <state line="98" column="49" selection-start="4831" selection-end="4831" vertical-scroll-proportion="-56.307693" vertical-offset="202" max-vertical-offset="2023">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vues/magazine_detail.class.php">
+    <entry file="file://$PROJECT_DIR$/vues/v_panier.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="43" selection-start="1002" selection-end="1002" vertical-scroll-proportion="-20.26923" vertical-offset="0" max-vertical-offset="748">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modeles/Magazine.inc.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="204" column="80" selection-start="9972" selection-end="9972" vertical-scroll-proportion="-16.884615" vertical-offset="3029" max-vertical-offset="4250">
-          <folding>
-            <marker date="1404691637979" expanded="true" signature="1116:1159" placeholder="SELECT DISTI..produit..." />
-            <marker date="1404691637979" expanded="true" signature="1865:1911" placeholder="SELECT DISTI..produit..." />
-            <marker date="1404691637979" expanded="true" signature="3005:3047" placeholder="SELECT DISTI..produit..." />
-            <marker date="1404691637979" expanded="true" signature="4174:4195" placeholder="SELECT * FRO..produit..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.298/projet/gabarit.projet.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="14" selection-start="2323" selection-end="2323" vertical-scroll-proportion="-8.5" vertical-offset="714" max-vertical-offset="3400">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vues/panier.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="787" selection-end="787" vertical-scroll-proportion="-21.576923" vertical-offset="0" max-vertical-offset="663">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.585/projet/vues/magazine.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="510">
+        <state line="22" column="0" selection-start="725" selection-end="725" vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="782">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modeles/fonctions.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="33" selection-start="521" selection-end="521" vertical-scroll-proportion="-24.192308" vertical-offset="0" max-vertical-offset="1173">
+        <state line="59" column="45" selection-start="893" selection-end="893" vertical-scroll-proportion="-27.346153" vertical-offset="292" max-vertical-offset="1190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modeles/modeleEffacerClient.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="53" selection-start="556" selection-end="556" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Base de donne/alterdb.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="21" selection-start="517" selection-end="517" vertical-scroll-proportion="0.23112659" vertical-offset="124" max-vertical-offset="3145">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/magazine_list.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="46" selection-start="1744" selection-end="1744" vertical-scroll-proportion="-30.076923" vertical-offset="0" max-vertical-offset="1292">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/formulaire.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="0" selection-start="2312" selection-end="2312" vertical-scroll-proportion="-13.615385" vertical-offset="802" max-vertical-offset="3230">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/panier.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="10" selection-start="834" selection-end="834" vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbconnect.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="187">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modeles/class.pdoMontre.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="44" selection-start="818" selection-end="818" vertical-scroll-proportion="0.2396789" vertical-offset="267" max-vertical-offset="1139">
+        <state line="7" column="38" selection-start="169" selection-end="169" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="1156">
           <folding>
-            <marker date="1404691678748" expanded="true" signature="964:985" placeholder="select * fro..produit..." />
-            <marker date="1404691678748" expanded="true" signature="1297:1352" placeholder="select * fro..produit..." />
+            <marker date="1404750200430" expanded="true" signature="-1:-1" placeholder="select * fro..produit..." />
+            <marker date="1404750200430" expanded="true" signature="-1:-1" placeholder="select * fro..produit..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/formulaireCreerClientReponse.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="14" selection-start="547" selection-end="663" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="765">
+          <folding>
+            <marker date="1404689389902" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1404689389902" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1404689389902" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1404689389902" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/formulaire.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="40" selection-end="163" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2839">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/login.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="29" selection-start="591" selection-end="591" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="1292">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="29" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="5185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/logout.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="4" selection-start="514" selection-end="640" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modeles/verificationLogin.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="8" selection-start="868" selection-end="917" vertical-scroll-proportion="-14.923077" vertical-offset="207" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/loginClient.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1581">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gabarit.projet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="21" selection-start="4045" selection-end="4053" vertical-scroll-proportion="-9.038462" vertical-offset="1431" max-vertical-offset="4165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/info_expedition.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="7" selection-start="445" selection-end="445" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="1003">
+          <folding>
+            <marker date="1404752368197" expanded="true" signature="571:626" placeholder="..." />
+            <marker date="1404752368197" expanded="true" signature="708:2773" placeholder="..." />
+            <marker date="1404752368197" expanded="true" signature="761:771" placeholder="..." />
+            <marker date="1404752368197" expanded="true" signature="826:2698" placeholder="..." />
+            <marker date="1404752368197" expanded="true" signature="1187:1858" placeholder="..." />
+            <marker date="1404752368197" expanded="true" signature="2751:2761" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/apropos.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="361" selection-end="361" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="1003">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/supprimer.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="36" selection-start="584" selection-end="584" vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/ajouter.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="425" selection-end="425" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/produit.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="25" selection-start="582" selection-end="582" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="1224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/magazine_detail.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="56" selection-start="963" selection-end="1036" vertical-scroll-proportion="-20.26923" vertical-offset="0" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controler.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="501" column="37" selection-start="15766" selection-end="15766" vertical-scroll-proportion="-132.53847" vertical-offset="1455" max-vertical-offset="9299">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modeles/modeleAjoutRetirePanier.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="39" selection-start="1017" selection-end="1025" vertical-scroll-proportion="-10.153846" vertical-offset="382" max-vertical-offset="1802">
+          <folding>
+            <marker date="1404749178805" expanded="true" signature="773:859" placeholder="INSERT INTO ..." />
+            <marker date="1404749178805" expanded="true" signature="1050:1121" placeholder="SELECT Panie..panier..." />
+            <marker date="1404749178805" expanded="true" signature="1339:1395" placeholder="SELECT * FRO..panier..." />
+            <marker date="1404749178805" expanded="true" signature="1647:1733" placeholder="DELETE FROM ..." />
+            <marker date="1404749178805" expanded="true" signature="2247:2527" placeholder="UPDATE clien..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modeles/magazine.inc.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="169" column="39" selection-start="8533" selection-end="8533" vertical-scroll-proportion="0.5608856" vertical-offset="2417" max-vertical-offset="5593">
+          <folding>
+            <marker date="1404754079642" expanded="true" signature="1116:1159" placeholder="SELECT DISTI..produit..." />
+            <marker date="1404754079642" expanded="true" signature="1865:1911" placeholder="SELECT DISTI..produit..." />
+            <marker date="1404754079642" expanded="true" signature="3005:3047" placeholder="SELECT DISTI..produit..." />
+            <marker date="1404754079642" expanded="true" signature="4174:4195" placeholder="SELECT * FRO..produit..." />
           </folding>
         </state>
       </provider>

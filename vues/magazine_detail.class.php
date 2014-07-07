@@ -1,6 +1,6 @@
 ﻿<?php
 // include pour obtenir des donées de magazine_list.class.php
-include("./modeles/Magazine.inc.class.php");
+include("./modeles/magazine.inc.class.php");
 /**
  * Class Vue
  * Template de classe Vue. Dupliquer et modifier pour votre usage.
@@ -12,7 +12,7 @@ include("./modeles/Magazine.inc.class.php");
  * @license http://creativecommons.org/licenses/by-nc/3.0/deed.fr
  * 
  */
-class Magazine_detail {
+class magazine_detail {
 	/**
 	 * Affiche la page d'accueil 
 	 * @access public
@@ -28,7 +28,7 @@ class Magazine_detail {
     <article class="container contenu_interne">
 		<!-- Methode pour generer information détaillé de produit -->
 		<?php
-                $instance = Produits::getInstance('alterdb','dbconnect');
+                $instance = produits::getInstance('e0588135','dbconnect');
             	$resultat =$instance->obtenir_produit_detail($_GET['id']); 
         ?>
     </article>

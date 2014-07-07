@@ -15,7 +15,16 @@
 class supprimer {
      
    public function supprimerProduit() {
-	
+
+
+
+
+
+
+
+
+
+
 	$n= nbProduitsDuPanier();
 		if($n >0)
 		{   

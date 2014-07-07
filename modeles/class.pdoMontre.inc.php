@@ -4,9 +4,9 @@
 class PdoMontre
 {   		
       	private static $serveur='mysql:host=localhost';
-      	private static $bdd='dbname=alterdb';
-      	private static $user='root' ;    		
-      	private static $mdp='Jackson33' ;
+      	private static $bdd='dbname=e0588135';
+      	private static $user='e0588135' ;
+      	private static $mdp='880703' ;
 		private static $monPdo;
 		private static $monPdoMontre = null;
 /**
@@ -49,7 +49,8 @@ class PdoMontre
 		{
 			foreach($desIdProduit as $unIdProduit)
 			{
-				$req = "select * from produit where produit_ID = '$unIdProduit'";
+                $idProduit = $unIdProduit['PanierProduit_ID'];
+				$req = "select * from produit where Produit_ID = '$idProduit'";
 				$res = PdoMontre::$monPdo->query($req);
 				$unProduit = $res->fetch();
 				$lesProduits[] = $unProduit;

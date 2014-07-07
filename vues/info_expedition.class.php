@@ -10,7 +10,7 @@
  * @license http://creativecommons.org/licenses/by-nc/3.0/deed.fr
  * 
  */
-class Info_expedition {
+class info_expedition {
 
 	/**
 	 * Affiche la page d'accueil 

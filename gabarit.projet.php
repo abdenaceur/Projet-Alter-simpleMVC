@@ -96,13 +96,30 @@
         session_start();
         if(isset($_SESSION['ClientNom'])){
         ?>
-		<section class="col-lg-5 col-md-5 col-sm-5 text-right">
+		<section id="barLogin" class="col-lg-5 col-md-5 col-sm-5 text-right">
 			<p href="?requete=login">Bienvenue, <?php echo $_SESSION['ClientNom']?>
-             <a href="?requete=panier"><i class="fa fa-shopping-cart fa-2x"></i> [<?php $n = 0;
-                    if(isset($_SESSION['produits']))
-                    {
-                        $n = count($_SESSION['produits']);
-                    }echo $n;?>]</a></p>
+             <a href="?requete=panier"><i class="fa fa-shopping-cart fa-2x"></i>[
+                 <?php
+                 $idclient=$_SESSION['ClientID'];
+                 $ajouterProduitPanierModule = modeleAjoutRetirePanier::getInstance('e0588135','dbconnect');
+                 $confirmationAjoutProduitPanier = $ajouterProduitPanierModule->getNumItemPanier($idclient);
+
+                echo $confirmationAjoutProduitPanier;
+
+
+
+                  //$n = 0;
+                    //if(isset($_SESSION['produits']))
+                    //{
+                        //$n = count($_SESSION['produits']);
+                    //}echo $n;?>]
+
+
+
+
+
+
+             </a></p>
             <a href="?requete=logout">Logout</a>
         </section>
         <?php
@@ -111,12 +128,12 @@
 		<section class="col-lg-5 col-md-5 col-sm-5 text-right">
 			<a href="?requete=login">SE CONNECTER</a>
 			<a href="?requete=formulaire">S'INSCRIRE</a>
-			<a href="?requete=panier"><i class="fa fa-shopping-cart fa-2x"></i> [<?php $n = 0;
+			<!--<a href="?requete=panier"><i class="fa fa-shopping-cart fa-2x"></i> [<?php $n = 0;
                     if(isset($_SESSION['produits']))
                     {
                         $n = count($_SESSION['produits']);
                     }echo $n;?>]</a>
-		</section>
+		</section>-->
         <?php
         }
         ?>
@@ -148,7 +165,7 @@
 	<section class="smartphone-visible container navbar_base"></section>
 	<!-- /navigation -->
 			<?php 		
-				$oControleur = new Controler();	
+				$oControleur = new controler();
 				$oControleur->gerer();
 			?>
 			<!-- Footer -->

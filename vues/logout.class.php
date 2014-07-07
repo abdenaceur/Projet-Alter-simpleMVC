@@ -12,7 +12,7 @@
  */
 
 
-class Logout {
+class logout {
 
 	/**
 	 * Affiche la page d'accueil 
@@ -21,8 +21,22 @@ class Logout {
 	 */
 	public function afficheLogout() {
 	session_destroy();
-        header('location:index.php');
-	}
+        ?>
+        <article class="container text-center header_section">
+		<h2>Votre compte a ete deconnecter avec succes.</h2>
+
+	</article>
+
+        <script>
+            window.addEventListener('load', init);
+            function init() {
+                var target = document.getElementById('barLogin');
+                document.getElementById('barLogin').className="hidden";
+            }
+        </script>
+
+<?php
+    }
 	
 
 }

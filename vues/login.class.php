@@ -12,7 +12,7 @@
  */
 
 
-class Login {
+class login {
 
 	/**
 	 * Affiche la page d'accueil 

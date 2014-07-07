@@ -15,7 +15,13 @@
 class ajouter {
      
    public function ajouterAuPanier() {
-       
+
+
+
+
+
+
+
 		$pdo = PdoMontre::getPdoMontre();
 	    $idProduit=$_REQUEST['produit'];
 		$ok = ajouterAuPanier($idProduit);

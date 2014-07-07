@@ -8,6 +8,9 @@ h1,h2,h3,h4,h5,h6,p,label, button, .header,.navbar  {
 
 	font-family: 'Roboto Condensed', sans-serif;
 }
+.noTextdeco{
+    list-style-type: none;
+}
 /* coulor pour des liens*/
 a:link, a:active, a:visited {
 	color: #ADADAD;
@@ -26,7 +29,9 @@ body {
 	margin: 0;
 	padding: 0;
 }
-
+.hidden{
+    display: none;
+}
 
 /* règles de style pour les éléments du login ceux du formulaire d'inscription*/
 

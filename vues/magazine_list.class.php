@@ -1,6 +1,6 @@
 ﻿<?php
 // include pour obtenir des donées de magazine_list.class.php
-include("./modeles/Magazine.inc.class.php");
+include("./modeles/magazine.inc.class.php");
 /**
  * Class Vue
  * Template de classe Vue. Dupliquer et modifier pour votre usage.
@@ -12,7 +12,7 @@ include("./modeles/Magazine.inc.class.php");
  * @license http://creativecommons.org/licenses/by-nc/3.0/deed.fr
  * 
  */
-class Magazine_list {
+class magazine_list {
 	/**
 	 * Affiche la page d'accueil 
 	 * @access public
@@ -31,7 +31,7 @@ class Magazine_list {
             <section class="col-lg-12 col-md-12 col-sm-3 col-xs-6 magazine">
 				<!-- generation de Checkboxes pour filtre de style-->
                 <?php
-                $instance = Produits::getInstance('alterdb','dbconnect');
+                $instance = Produits::getInstance('e0588135','dbconnect');
                 $resultat =$instance->obtenir_style_filtre(); 
                 ?>
             </section>

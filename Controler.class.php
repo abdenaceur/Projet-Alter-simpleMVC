@@ -11,7 +11,7 @@
  *
  */
 
-class Controler
+class controler
 {
 
     public function gererAdmin()
@@ -99,7 +99,7 @@ class Controler
 
     private function adminCreerProduit()
     {
-        $creerProduitModule = insertProduit::getInstance('alterdb','dbconnect');
+        $creerProduitModule = insertProduit::getInstance('e0588135','dbconnect');
         $confirmationCreerProduit = $creerProduitModule->insertProduit();
         if($confirmationCreerProduit){
             $oVue = new adminCreerProduitReponse();
@@ -112,7 +112,7 @@ class Controler
 
     private function adminEffacerProduit()
     {
-        $effacerProduitConnection = modeleEffacerProduit::getInstance('alterdb','dbconnect');
+        $effacerProduitConnection = modeleEffacerProduit::getInstance('e0588135','dbconnect');
         //Apelle du modele qui va checher les informations
         $effacerProduitConfirmation = $effacerProduitConnection->effacerProduit();
         $oVue = new adminProduitEffacerConfirmation();
@@ -128,7 +128,7 @@ class Controler
 
     private function adminResultatRechercheProduit()
     {
-        $instanceRecherche = adminRechercheProduit::getInstance('alterdb','dbconnect');
+        $instanceRecherche = adminRechercheProduit::getInstance('e0588135','dbconnect');
         $resultatProduit = $instanceRecherche->rechercheProduit();
 
         if($resultatProduit){
@@ -140,7 +140,7 @@ class Controler
     private function adminModificationProduit()
 
     {
-        $informationProduitConnection = modeleInformationProduit::getInstance('alterdb','dbconnect');
+        $informationProduitConnection = modeleInformationProduit::getInstance('e0588135','dbconnect');
         $informationProduit = $informationProduitConnection->getInformationProduit();
 
         //Apelle du modele qui va checher les informations
@@ -150,7 +150,7 @@ class Controler
 
     private function adminModificationProduitConfirmation()
     {
-        $modificationProduitConnection = modeleInformationProduit::getInstance('alterdb','dbconnect');
+        $modificationProduitConnection = modeleInformationProduit::getInstance('e0588135','dbconnect');
         $modificationProduit = $modificationProduitConnection->setInformationProduit();
         if($modificationProduit){
 
@@ -169,7 +169,7 @@ class Controler
     private function adminLoginConf(){
         $username=$_POST['nomUtilisateur'];
         $password=$_POST['mdp'];
-        $verificationModule = verificationLoginAdmin::getInstance('alterdb','dbconnect');
+        $verificationModule = verificationLoginAdmin::getInstance('e0588135','dbconnect');
         $verificationUsername = $verificationModule->verificationAdmin($username,$password);
         if($verificationUsername){
             $oVue=new adminLogin();
@@ -183,7 +183,7 @@ class Controler
 
     private function adminResultatRechercheClient()
     {
-        $instanceRecherche = adminRechercheClient::getInstance('alterdb','dbconnect');
+        $instanceRecherche = adminRechercheClient::getInstance('e0588135','dbconnect');
         $resultatClient = $instanceRecherche->rechercheClient();
 
         if($resultatClient){
@@ -258,7 +258,7 @@ class Controler
 
     private function adminCreerClient()
     {
-        $creerClientModule = insertClient::getInstance('alterdb','dbconnect');
+        $creerClientModule = insertClient::getInstance('e0588135','dbconnect');
         $confirmationCreerClient = $creerClientModule->insertClient();
         if($confirmationCreerClient){
             $oVue = new adminCreerClientReponse();
@@ -272,7 +272,7 @@ class Controler
     private function adminModificationClient()
 
     {
-        $informationClientConnection = modeleInformationClient::getInstance('alterdb','dbconnect');
+        $informationClientConnection = modeleInformationClient::getInstance('e0588135','dbconnect');
         $informationClient = $informationClientConnection->getInformationClient();
 
         //Apelle du modele qui va checher les informations
@@ -282,7 +282,7 @@ class Controler
 
     private function adminEffacerClient()
     {
-        $effacerClientConnection = modeleEffacerClient::getInstance('alterdb','dbconnect');
+        $effacerClientConnection = modeleEffacerClient::getInstance('e0588135','dbconnect');
         //Apelle du modele qui va checher les informations
         $effacerClientConfirmation = $effacerClientConnection->effacerClient();
         $oVue = new adminClientEffacerConfirmation();
@@ -300,7 +300,7 @@ class Controler
 
     private function adminModificationClientConfirmation()
     {
-        $modificationClientConnection = modeleInformationClient::getInstance('alterdb','dbconnect');
+        $modificationClientConnection = modeleInformationClient::getInstance('e0588135','dbconnect');
         $modificationClient = $modificationClientConnection->setInformationClient();
         if($modificationClient){
 
@@ -395,7 +395,7 @@ class Controler
         //Apele du module qui verifier username et password
         $username=$_POST['exampleInputEmail1'];
         $password=$_POST['exampleInputPassword1'];
-        $verificationModule = verificationLogin::getInstance('alterdb','dbconnect');
+        $verificationModule = verificationLogin::getInstance('e0588135','dbconnect');
         $verificationUsername = $verificationModule->verification($username,$password);
         if($verificationUsername){
             $oVue=new loginClient();
@@ -414,7 +414,7 @@ class Controler
 
     private function magazine()
     {
-        $oVue = new Magazine_list();
+        $oVue = new magazine_list();
         $oVue->afficheMagazineList();
     }
 
@@ -444,19 +444,19 @@ class Controler
 
     private function magazine_detail()
     {
-        $oVue = new Magazine_detail();
+        $oVue = new magazine_detail();
         $oVue->afficheMagazineDetail();
     }
 
     private function login()
     {
-        $oVue = new Login();
+        $oVue = new login();
         $oVue->afficheLogin();
     }
 
     private function info_exp()
     {
-        $oVue = new Info_expedition();
+        $oVue = new info_expedition();
         $oVue->afficheInfoExpedition();
     }
 
@@ -474,13 +474,13 @@ class Controler
 
     private function formulaire()
     {
-        $oVue = new Formulaire();
+        $oVue = new formulaire();
         $oVue->afficheFormulaire();
     }
 
     private function formulaireConfirmation()
     {
-        $creerClientModule = insertClient::getInstance('alterdb','dbconnect');
+        $creerClientModule = insertClient::getInstance('e0588135','dbconnect');
         $confirmationCreerClient = $creerClientModule->insertClientFrontend();
         if($confirmationCreerClient){
             $oVue = new formulaireCreerClientReponse();
@@ -507,18 +507,29 @@ class Controler
 
     private function logout()
     {
-        $oVue = new Logout();
+        $oVue = new logout();
         $oVue->afficheLogout();
     }
     private function supprimer()
     {
-        $oVue = new supprimer();
-        $oVue->supprimerProduit();
+        $idProduit=$_REQUEST['produit'];
+
+        $retirerProduitPanierModule = modeleAjoutRetirePanier::getInstance('e0588135','dbconnect');
+        $confirmationAjoutProduitPanier = $retirerProduitPanierModule->retirerAuPanier($idProduit);
+
+        $oVue = new panier();
+        $oVue->affichePanier();
     }
     private function ajouter()
     {
-        $oVue = new ajouter();
-        $oVue->ajouterAuPanier();
+        $idProduit=$_REQUEST['produit'];
+
+        $ajouterProduitPanierModule = modeleAjoutRetirePanier::getInstance('e0588135','dbconnect');
+        $confirmationAjoutProduitPanier = $ajouterProduitPanierModule->ajouterAuPanier($idProduit);
+
+        $oVue = new magazine_list();
+        $oVue->afficheMagazineList();
+
     }
 
 }

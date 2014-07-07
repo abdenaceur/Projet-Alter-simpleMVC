@@ -17,11 +17,15 @@ class panier {
 
    public function affichePanier() {
 	 
-	$n= nbProduitsDuPanier();
-		if($n >0)
-	  {   
+
 		    $pdo = PdoMontre::getPdoMontre();
-			$desIdProduit = getLesIdProduitsDuPanier();
+			//$desIdProduit = getLesIdProduitsDuPanier();
+
+          $ProduitPanierModule = modeleAjoutRetirePanier::getInstance('e0588135','dbconnect');
+          $desIdProduit = $ProduitPanierModule->getArrayProduitPanier();
+
+    if($desIdProduit){
+
 			$lesProduitsDuPanier = $pdo->getLesProduitsDuTableau($desIdProduit);
 			
 		   include ("v_panier.php");

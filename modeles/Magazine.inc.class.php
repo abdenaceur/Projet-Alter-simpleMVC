@@ -2,7 +2,7 @@
 // appelle au connexion de BD
 include_once("./includes/connexionPDO.inc.php");
 // generarion du class Produits appellé du fichier vue/magazine_list.class.php
-class Produits {
+class produits {
     private static $instance = null;
     private $id;
     // le constructeur prends la connexion et lui donne des parametres obtenus en vue/magazine_list.class.php, ligne 4
@@ -166,7 +166,85 @@ class Produits {
             if ($ligne->Produit_Camera){$produit_camera = '<li>Camera</li>';} else $produit_camera = '';
             if ($ligne->Produit_TouchScreen){$produit_touchScreen = '<li>TouchScreen</li>';} else $produit_touchScreen = '';
 			// Publication du contenu de la page avec linsertion de variables demmandés dans la requete mysql
-			echo ('
+
+            if(!isset($_SESSION['ClientID'])){
+                echo ('
+					<!-- Images du produit -->
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center magazine">
+						<img src="./img/'.$produit_image1.'.jpg" width="100%" class="img-responsive" id="bg">
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 magazine produit_mini">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-4">
+							<a href="" title="Switch" class="menulink1">
+								<img src="./img/'.$produit_image1.'.jpg" width="100%" class="img-responsive">
+							</a>
+							<p></p>
+						</div>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-4">
+							<a href="" title="Switch" class="menulink2">
+								<img src="./img/'.$produit_image2.'.jpg" width="100%" class="img-responsive">
+							</a>
+							<p></p>
+						</div>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-4">
+							<a href="" title="Switch" class="menulink3">
+								<img src="./img/'.$produit_image3.'.jpg" width="100%" class="img-responsive">
+							</a>
+							<p></p>
+						</div>
+					</div>
+					<!-- /Images du produit -->
+					<!-- Description de produit -->
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 magazine ">
+						<h1>'.$produit_nom.'</h1>
+						<p></p>
+						<p>'.$produit_description.'</p>
+						<h2>$'.$produit_prix.'</h2>
+						<h2></h2>
+						<h4>Quantit&eacute; :</h4>
+						<input type="text" class="form_quantite form-control " value="1">
+						<h2></h2>
+						<a href="index.php?requete=formulaire" class="btn btn-danger  btn-sm" role="button"><h5>ACHETER</h5></a>
+						<h2></h2>
+						<h3>Caract&eacute;ristiques :</h3>
+						<ul>
+							<li>Style : '.$produit_style.'</li>
+							<li>Materiel : '.$produit_materiel.'</li>
+							<li>Couleur : '.$produit_coleur.'</li>
+							<li>Poids : '.$produit_poids.' grms</li>
+							<li>Longeur : '.$produit_longeur.' mms</li>
+							<li>Largeur : '.$produit_largeur.' cms</li>
+							<li>OS : '.$produit_os.'</li>
+							<li>Resolution : '.utf8_encode($produit_resolution).'</li>'
+                    .$produit_hautparleur
+                    .$produit_microphone
+                    .$produit_camera
+                    .$produit_touchScreen.
+                    '</ul>
+                </div>
+                <!-- /Description de produit -->
+                <script>
+                     // script pour magazine, magazine détail
+                    $(function () {
+                        $(".menulink1").click(function (e) {
+                            e.preventDefault();
+                            $("#bg").attr("src", "./img/'.$produit_image1.'.jpg");
+							});
+							$(".menulink2").click(function (e) {
+								e.preventDefault();
+								$("#bg").attr("src", "./img/'.$produit_image2.'.jpg");
+							});
+							$(".menulink3").click(function (e) {
+								e.preventDefault();
+								$("#bg").attr("src", "./img/'.$produit_image3.'.jpg");
+							});
+						});
+					</script>
+			');
+            }else{
+
+
+			    echo ('
 					<!-- Images du produit -->
 					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center magazine">
 						<img src="./img/'.$produit_image1.'.jpg" width="100%" class="img-responsive" id="bg">
@@ -241,5 +319,6 @@ class Produits {
 			');
         }
 	}
+}
 }
 ?>
